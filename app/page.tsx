@@ -1,65 +1,101 @@
-import Image from "next/image";
+'use client';
 
-export default function Home() {
+import { useEffect, useRef } from 'react';
+import mapboxgl from 'mapbox-gl';
+import 'mapbox-gl/dist/mapbox-gl.css';
+
+mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN || 'TOBEFILLED';
+
+export default function Page() {
+  const mapContainer = useRef<HTMLDivElement | null>(null);
+  const mapRef = useRef<mapboxgl.Map | null>(null);
+
+  useEffect(() => {
+    if (!mapContainer.current || mapRef.current) return;
+
+    const map = new mapboxgl.Map({
+      container: mapContainer.current,
+      style: 'mapbox://styles/mapbox/light-v11',
+      center: [-119.5, 37.2],
+      zoom: 5.5
+    });
+
+    mapRef.current = map;
+
+    map.on('load', async () => {
+      const res = await fetch(
+        'https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json'
+      );
+      const geojson = await res.json();
+
+      const regionColors: Record<string, string> = {
+        // Region 1
+        '06015':'#c9db2a','06023':'#c9db2a','06045':'#c9db2a','06033':'#c9db2a','06097':'#c9db2a',
+
+
+        '06093':'#0099b5','06049':'#0099b5','06089':'#0099b5','06035':'#0099b5','06103':'#0099b5','06063':'#0099b5','06007':'#0099b5','06021':'#0099b5','06105':'#0099b5',
+
+        // Region 3
+        '06011':'#8cd7f4','06113':'#8cd7f4','06101':'#8cd7f4','06067':'#8cd7f4','06115':'#8cd7f4','06091':'#8cd7f4','06057':'#8cd7f4','06061':'#8cd7f4','06017':'#8cd7f4','06003':'#8cd7f4',
+
+        // Region 4
+        '06081':'#f79520', '06055':'#f79520','06095':'#f79520','06013':'#f79520','06041':'#f79520','06075':'#f79520','06001':'#f79520',
+
+
+        '06087':'#65be4f','06085':'#65be4f','06069':'#65be4f','06053':'#65be4f',
+
+        // Region 6
+        '06005':'#e92a39','06009':'#e92a39','06109':'#e92a39','06077':'#e92a39','06099':'#e92a39',
+
+        // Region 7
+        '06047':'#fcc216','06043':'#fcc216','06039':'#fcc216','06019':'#fcc216','06031':'#fcc216','06107':'#fcc216',
+
+        // Region 8
+        '06079':'#0a8070','06029':'#0a8070','06083':'#0a8070','06111':'#0a8070',
+
+        // Region 9
+        '06073':'#c51883','06025':'#c51883','06059':'#c51883',
+
+        // Region 10
+        '06051':'#69308e','06027':'#69308e','06071':'#69308e','06065':'#69308e',
+
+        // Region 11
+        '06037':'#00528a'
+      };
+
+      geojson.features.forEach((f: any) => {
+        const fips = f.id as string;
+        f.properties = f.properties || {};
+        f.properties.color = regionColors[fips] || '#cccccc';
+      });
+
+      map.addSource('counties', {
+        type: 'geojson',
+        data: geojson
+      });
+
+      map.addLayer({
+        id: 'county-regions',
+        type: 'fill',
+        source: 'counties',
+        paint: {
+          'fill-color': ['get', 'color'],
+          'fill-opacity': 0.7,
+          'fill-outline-color': '#333'
+        }
+      });
+    });
+
+    return () => {
+      map.remove();
+      mapRef.current = null;
+    };
+  }, []);
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <div
+      ref={mapContainer}
+      style={{ position: 'absolute', height: '100%', width: '100%' }}
+    />
   );
 }
