@@ -210,7 +210,7 @@ useMemo(() => {
   }, [countyJsonData]);
 
   return (
-    <div style={{ display: "flex", height: "100vh", fontFamily: "sans-serif" }}>
+    <div className='flex h-screen'>
       <div ref={mapContainer} style={{ flex: 3 }} />
       <div
         style={{
@@ -221,12 +221,12 @@ useMemo(() => {
           overflowY: "auto",
         }}
       >
-        <h2 style={{ color: "#333", borderBottom: "2px solid #00528a" }}>
+        <h2 className='text-[#333333] border-b-2 border-b-blue-950 text-center'>
           County Details {selectedFips && "📍"}
         </h2>
 
         {hoveredData ? (
-          <div className="text-black">
+          <div className="text-black text-center">
             <h3 style={{ margin: "10px 0 5px 0" }}>{hoveredData.County}</h3>
             <p style={{ color: "black", fontSize: "0.9rem" }}>
               {hoveredData.Region}
@@ -275,12 +275,13 @@ useMemo(() => {
                   ]);
                 }}
                 style={{
-                  display: "block",
+                  display: "flex",
                   marginTop: "20px",
                   background: "none",
                   border: "1px solid #ccc",
                   cursor: "pointer",
                   padding: "5px 10px",
+                  justifySelf: "center"
                 }}
               >
                 Clear Selection
