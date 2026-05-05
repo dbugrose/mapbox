@@ -210,90 +210,94 @@ useMemo(() => {
   }, [countyJsonData]);
 
   return (
-    <div className='flex h-screen'>
-      <div ref={mapContainer} style={{ flex: 3 }} />
-      <div
-        style={{
-          flex: 1,
-          padding: "24px",
-          borderLeft: "1px solid #ddd",
-          background: "#f9f9f9",
-          overflowY: "auto",
-        }}
-      >
-        <h2 className='text-[#333333] border-b-2 border-b-blue-950 text-center'>
-          County Details {selectedFips && "📍"}
-        </h2>
+  <div className='flex flex-col md:flex-row h-screen'>
+    
+    <div 
+      ref={mapContainer} 
+      className="h-[125] md:h-full md:flex-3" 
+    />
 
-        {hoveredData ? (
-          <div className="text-black text-center">
-            <h3 style={{ margin: "10px 0 5px 0" }}>{hoveredData.County}</h3>
-            <p style={{ color: "black", fontSize: "0.9rem" }}>
-              {hoveredData.Region}
-            </p>
-            <hr />
-            <p>
-              <strong>{hoveredData.Role}:</strong>
-              <br />
-              {hoveredData.Point}
-            </p>
-            <p>
-              <strong>Address:</strong>
-              <br />
-              {hoveredData.Address}
-            </p>
-            <p>
-              <strong>Class:</strong> {hoveredData.Class}
-            </p>
-            <a
-              href={hoveredData.Url}
-              target="_blank"
-              rel="noreferrer"
+    <div
+      style={{
+        flex: 1,
+        padding: "24px",
+        borderLeft: "1px solid #ddd",
+        background: "#f9f9f9",
+        overflowY: "auto",
+      }}
+      className="border-t md:border-t-0 md:border-l border-[#ddd]"
+    >
+      <h2 className='text-[#333333] border-b-2 border-b-blue-950 text-center'>
+        County Details {selectedFips && "📍"}
+      </h2>
+
+      {hoveredData ? (
+        <div className="text-black text-center">
+          <h3 style={{ margin: "10px 0 5px 0" }}>{hoveredData.County}</h3>
+          <p style={{ color: "black", fontSize: "0.9rem" }}>
+            {hoveredData.Region}
+          </p>
+          <hr />
+          <p>
+            <strong>{hoveredData.Role}:</strong>
+            <br />
+            {hoveredData.Point}
+          </p>
+          <p>
+            <strong>Address:</strong>
+            <br />
+            {hoveredData.Address}
+          </p>
+          <p>
+            <strong>Class:</strong> {hoveredData.Class}
+          </p>
+          <a
+            href={hoveredData.Url}
+            target="_blank"
+            rel="noreferrer"
+            style={{
+              display: "inline-block",
+              padding: "10px 15px",
+              background: "#00528a",
+              color: "#fff",
+              textDecoration: "none",
+              borderRadius: "4px",
+            }}
+          >
+            Official Website
+          </a>
+          {selectedFips && (
+            <button
+              onClick={() => {
+                selectedFipsRef.current = null;
+                setSelectedFips(null);
+                setHoveredData(null);
+                mapRef.current?.setFilter("county-outline", [
+                  "==",
+                  ["get", "fips"],
+                  "",
+                ]);
+              }}
               style={{
-                display: "inline-block",
-                padding: "10px 15px",
-                background: "#00528a",
-                color: "#fff",
-                textDecoration: "none",
-                borderRadius: "4px",
+                display: "flex",
+                marginTop: "20px",
+                background: "none",
+                border: "1px solid #ccc",
+                cursor: "pointer",
+                padding: "5px 10px",
+                justifySelf: "center"
               }}
             >
-              Official Website
-            </a>
-            {selectedFips && (
-              <button
-                onClick={() => {
-                  selectedFipsRef.current = null;
-
-                  setSelectedFips(null);
-                  setHoveredData(null);
-
-                  mapRef.current?.setFilter("county-outline", [
-                    "==",
-                    ["id"],
-                    "",
-                  ]);
-                }}
-                style={{
-                  display: "flex",
-                  marginTop: "20px",
-                  background: "none",
-                  border: "1px solid #ccc",
-                  cursor: "pointer",
-                  padding: "5px 10px",
-                  justifySelf: "center"
-                }}
-              >
-                Clear Selection
-              </button>
-            )}
-          </div>
-        ) : (
-          <p style={{ color: "black" }}>
-            Hover over a county (or click to lock) to view info.
-          </p>
-        )}
-      </div>
+              Clear Selection
+            </button>
+          )}
+        </div>
+      ) : (
+        <p style={{ color: "black" }}>
+          Hover over a county (or click to lock) to view info.
+        </p>
+      )}
     </div>
-  );
+  </div>
+);
 }
