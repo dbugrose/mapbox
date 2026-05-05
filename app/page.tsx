@@ -93,6 +93,7 @@ useMemo(() => {
         id: 'county-regions',
         type: 'fill',
         source: 'counties',
+        filter: ['!=', ['get', 'color'], '#cccccc'],
         paint: {
           'fill-color': ['get', 'color'],
           'fill-opacity': [
@@ -123,31 +124,36 @@ useMemo(() => {
     if (!map) return;
 
     const onMouseMove = (e: mapboxgl.MapLayerMouseEvent) => {
-      if (e.features && e.features.length > 0) {
-        map.getCanvas().style.cursor = 'pointer';
-        const fips = e.features[0].properties?.fips;
+  if (e.features && e.features.length > 0) {
+    const fips = e.features[0].properties?.fips;
 
-        if (fips && fips !== lastHoveredFips.current) {
-          if (lastHoveredFips.current) {
-            map.setFeatureState(
-              { source: 'counties', id: lastHoveredFips.current },
-              { hover: false }
-            );
-          }
-          
-          lastHoveredFips.current = fips;
-          
+    if (fips && fipsLookupRef.current[fips]) {
+      map.getCanvas().style.cursor = 'pointer';
+
+      if (fips !== lastHoveredFips.current) {
+        if (lastHoveredFips.current) {
           map.setFeatureState(
-            { source: 'counties', id: fips },
-            { hover: true }
+            { source: 'counties', id: lastHoveredFips.current },
+            { hover: false }
           );
+        }
+        
+        lastHoveredFips.current = fips;
+        
+        map.setFeatureState(
+          { source: 'counties', id: fips },
+          { hover: true }
+        );
 
-          if (!selectedFipsRef.current) {
-            setHoveredData(fipsLookupRef.current[fips] || null);
-          }
+        if (!selectedFipsRef.current) {
+          setHoveredData(fipsLookupRef.current[fips]);
         }
       }
-    };
+    } else {
+      onMouseLeave();
+    }
+  }
+};
 
     const onMouseLeave = () => {
       map.getCanvas().style.cursor = '';
