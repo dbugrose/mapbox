@@ -242,15 +242,15 @@ useMemo(() => {
           
           <div className="space-y-3 text-sm">
             <p>
-              <strong className="block text-xs uppercase text-gray-500">Role</strong>
-              {hoveredData.Role}: {hoveredData.Point}
+              <strong className="block text-xs uppercase text-gray-500">{hoveredData.Role}</strong>
+              {hoveredData.Point}
             </p>
             <p>
               <strong className="block text-xs uppercase text-gray-500">Address</strong>
               {hoveredData.Address}
             </p>
             <p>
-              <strong>Class:</strong> {hoveredData.Class}
+              <strong className="block text-xs uppercase text-gray-500">Class</strong> {hoveredData.Class}
             </p>
           </div>
 
