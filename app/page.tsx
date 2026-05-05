@@ -210,91 +210,78 @@ useMemo(() => {
   }, [countyJsonData]);
 
   return (
-  <div className='flex flex-col md:flex-row h-screen'>
+  <div className='flex flex-col md:flex-row h-screen w-full overflow-hidden'>
     
+
     <div 
       ref={mapContainer} 
-      className="h-[125] md:h-full md:flex-3" 
+      className="flex-1 md:flex-[3] w-full" 
     />
 
     <div
       style={{
-        flex: 1,
         padding: "24px",
-        borderLeft: "1px solid #ddd",
         background: "#f9f9f9",
         overflowY: "auto",
       }}
-      className="border-t md:border-t-0 md:border-l border-[#ddd]"
+      className="flex-none h-auto max-h-[500px] md:max-h-none md:flex-1 border-t md:border-t-0 md:border-l border-[#ddd] shadow-[0_-2px_10px_rgba(0,0,0,0.05)] md:shadow-none"
     >
-      <h2 className='text-[#333333] border-b-2 border-b-blue-950 text-center'>
+      <h2 className='text-[#333333] border-b-2 border-b-blue-950 text-center font-bold pb-2'>
         County Details {selectedFips && "📍"}
       </h2>
 
       {hoveredData ? (
-        <div className="text-black text-center">
-          <h3 style={{ margin: "10px 0 5px 0" }}>{hoveredData.County}</h3>
-          <p style={{ color: "black", fontSize: "0.9rem" }}>
+        <div className="text-black text-center mt-4">
+          <h3 className="text-lg font-bold" style={{ margin: "0 0 5px 0" }}>
+            {hoveredData.County}
+          </h3>
+          <p className="text-gray-600 text-sm mb-2">
             {hoveredData.Region}
           </p>
-          <hr />
-          <p>
-            <strong>{hoveredData.Role}:</strong>
-            <br />
-            {hoveredData.Point}
-          </p>
-          <p>
-            <strong>Address:</strong>
-            <br />
-            {hoveredData.Address}
-          </p>
-          <p>
-            <strong>Class:</strong> {hoveredData.Class}
-          </p>
-          <a
-            href={hoveredData.Url}
-            target="_blank"
-            rel="noreferrer"
-            style={{
-              display: "inline-block",
-              padding: "10px 15px",
-              background: "#00528a",
-              color: "#fff",
-              textDecoration: "none",
-              borderRadius: "4px",
-            }}
-          >
-            Official Website
-          </a>
-          {selectedFips && (
-            <button
-              onClick={() => {
-                selectedFipsRef.current = null;
-                setSelectedFips(null);
-                setHoveredData(null);
-                mapRef.current?.setFilter("county-outline", [
-                  "==",
-                  ["get", "fips"],
-                  "",
-                ]);
-              }}
-              style={{
-                display: "flex",
-                marginTop: "20px",
-                background: "none",
-                border: "1px solid #ccc",
-                cursor: "pointer",
-                padding: "5px 10px",
-                justifySelf: "center"
-              }}
+          <hr className="my-3" />
+          
+          <div className="space-y-3 text-sm">
+            <p>
+              <strong className="block text-xs uppercase text-gray-500">Role</strong>
+              {hoveredData.Role}: {hoveredData.Point}
+            </p>
+            <p>
+              <strong className="block text-xs uppercase text-gray-500">Address</strong>
+              {hoveredData.Address}
+            </p>
+            <p>
+              <strong>Class:</strong> {hoveredData.Class}
+            </p>
+          </div>
+
+          <div className="mt-5 flex flex-col items-center gap-3">
+            <a
+              href={hoveredData.Url}
+              target="_blank"
+              rel="noreferrer"
+              className="bg-[#00528a] text-white px-4 py-2 rounded shadow hover:bg-[#003d66] transition-colors inline-block w-full max-w-[200px]"
             >
-              Clear Selection
-            </button>
-          )}
+              Official Website
+            </a>
+            
+            {selectedFips && (
+              <button
+                onClick={() => {
+                  selectedFipsRef.current = null;
+                  setSelectedFips(null);
+                  setHoveredData(null);
+                  mapRef.current?.setFilter("county-outline", ["==", ["get", "fips"], ""]);
+                }}
+                className="text-gray-500 text-xs underline hover:text-black cursor-pointer"
+              >
+                Clear Selection
+              </button>
+            )}
+          </div>
         </div>
       ) : (
-        <p style={{ color: "black" }}>
-          Hover over a county (or click to lock) to view info.
+        <p className="text-gray-500 text-center mt-8 italic text-sm">
+          Hover over a county or click to lock details.
         </p>
       )}
     </div>
