@@ -28,10 +28,8 @@ export default function Page() {
   const fipsLookupRef = useRef<Record<string, any>>({});
   const lastHoveredFips = useRef<string | null>(null);
 
-// 1. Build Lookup Table (Fixed for lowercase "fips")
 useMemo(() => {
   const lookup = countyJsonData.reduce((acc, curr) => {
-    // Check for "fips" or "FIPS" to be safe
     const fipsKey = curr.fips || (curr as any).FIPS; 
     if (fipsKey) {
       const normalizedFips = String(fipsKey).padStart(5, '0');
@@ -43,7 +41,6 @@ useMemo(() => {
   fipsLookupRef.current = lookup;
 }, [countyJsonData]);
 
-  // 2. Fetch Sidebar Data
   useEffect(() => {
     fetch('/mapdata.json')
       .then(res => res.json())
@@ -51,7 +48,6 @@ useMemo(() => {
       .catch(err => console.error("JSON Load Error:", err));
   }, []);
 
-  // 3. Initialize Map
   useEffect(() => {
     if (!mapContainer.current || mapRef.current) return;
 
@@ -84,7 +80,6 @@ useMemo(() => {
 
       geojson.features.forEach((f: any) => {
         f.properties.color = regionColorMap[f.id] || '#cccccc';
-        // Add a fips property explicitly if missing to ensure promoteId works
         f.properties.fips = f.id; 
       });
 
@@ -100,7 +95,6 @@ useMemo(() => {
         source: 'counties',
         paint: {
           'fill-color': ['get', 'color'],
-          // This case makes the hover effect VISIBLE
           'fill-opacity': [
             'case',
             ['boolean', ['feature-state', 'hover'], false], 1,
@@ -124,7 +118,6 @@ useMemo(() => {
     return () => map.remove();
   }, []);
 
-  // 4. Interaction logic
   useEffect(() => {
     const map = mapRef.current;
     if (!map) return;
@@ -135,7 +128,6 @@ useMemo(() => {
         const fips = e.features[0].properties?.fips;
 
         if (fips && fips !== lastHoveredFips.current) {
-          // Clear previous state
           if (lastHoveredFips.current) {
             map.setFeatureState(
               { source: 'counties', id: lastHoveredFips.current },
@@ -145,7 +137,6 @@ useMemo(() => {
           
           lastHoveredFips.current = fips;
           
-          // Set new state
           map.setFeatureState(
             { source: 'counties', id: fips },
             { hover: true }
