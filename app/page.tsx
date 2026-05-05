@@ -210,34 +210,87 @@ useMemo(() => {
   }, [countyJsonData]);
 
   return (
-    <div style={{ display: 'flex', height: '100vh', background: 'white' }}>
+    <div style={{ display: "flex", height: "100vh", fontFamily: "sans-serif" }}>
       <div ref={mapContainer} style={{ flex: 3 }} />
-      <div style={{ flex: 1, padding: '24px', borderLeft: '1px solid #ddd', background: '#f9f9f9', overflowY: 'auto', color: 'black' }}>
-        <h2>County Details {selectedFips && "📍"}</h2>
-        <hr />
+      <div
+        style={{
+          flex: 1,
+          padding: "24px",
+          borderLeft: "1px solid #ddd",
+          background: "#f9f9f9",
+          overflowY: "auto",
+        }}
+      >
+        <h2 style={{ color: "#333", borderBottom: "2px solid #00528a" }}>
+          County Details {selectedFips && "📍"}
+        </h2>
+
         {hoveredData ? (
-          <div>
-            <h3>{hoveredData.County}</h3>
-            <p><strong>Region:</strong> {hoveredData.Region}</p>
-            <p><strong>Point of Contact:</strong> {hoveredData.Point}</p>
-            <p><strong>Address:</strong><br />{hoveredData.Address}</p>
-            <a href={hoveredData.Url} target="_blank" style={{ color: '#00528a', fontWeight: 'bold' }}>Website</a>
+          <div className="text-black">
+            <h3 style={{ margin: "10px 0 5px 0" }}>{hoveredData.County}</h3>
+            <p style={{ color: "black", fontSize: "0.9rem" }}>
+              {hoveredData.Region}
+            </p>
+            <hr />
+            <p>
+              <strong>{hoveredData.Role}:</strong>
+              <br />
+              {hoveredData.Point}
+            </p>
+            <p>
+              <strong>Address:</strong>
+              <br />
+              {hoveredData.Address}
+            </p>
+            <p>
+              <strong>Class:</strong> {hoveredData.Class}
+            </p>
+            <a
+              href={hoveredData.Url}
+              target="_blank"
+              rel="noreferrer"
+              style={{
+                display: "inline-block",
+                padding: "10px 15px",
+                background: "#00528a",
+                color: "#fff",
+                textDecoration: "none",
+                borderRadius: "4px",
+              }}
+            >
+              Official Website
+            </a>
             {selectedFips && (
-              <button 
+              <button
                 onClick={() => {
                   selectedFipsRef.current = null;
+
                   setSelectedFips(null);
                   setHoveredData(null);
-                  mapRef.current?.setFilter('county-outline', ['==', ['get', 'fips'], '']);
+
+                  mapRef.current?.setFilter("county-outline", [
+                    "==",
+                    ["id"],
+                    "",
+                  ]);
                 }}
-                style={{ display: 'block', marginTop: '20px', padding: '10px' }}
+                style={{
+                  display: "block",
+                  marginTop: "20px",
+                  background: "none",
+                  border: "1px solid #ccc",
+                  cursor: "pointer",
+                  padding: "5px 10px",
+                }}
               >
                 Clear Selection
               </button>
             )}
           </div>
         ) : (
-          <p>Hover over a county to see details.</p>
+          <p style={{ color: "black" }}>
+            Hover over a county (or click to lock) to view info.
+          </p>
         )}
       </div>
     </div>
