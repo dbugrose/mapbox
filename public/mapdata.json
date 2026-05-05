@@ -1,0 +1,594 @@
+[
+    {
+    "FIPS": "06001",
+    "Region": "Region 4 - North Coast",
+    "County": "Alameda County Office of Education",
+    "Point": "Alysse Castro",
+    "Role": "Superintendent",
+    "Class": "Class II",
+    "Address": "313 West Winton Avenue, Hayward, CA 94544",
+    "Url": "https://www.acoe.org/"
+    },
+  {
+    "FIPS": "06003",
+    "Region": "Region 3 - Capital Service Regional",
+    "County": "Alpine County Office of Education",
+    "Point": "Bill Roderick",
+    "Role": "Superintendent",
+    "Class": "Class VIII",
+    "Address": "43 Hawkside Drive, Markleeville, CA 96120",
+    "Url": "https://www.alpinecoe.k12.ca.us/"
+  },
+  {
+    "FIPS": "06005",
+    "Region": "Region 6 - Delta Sierra",
+    "County": "Amador County Office of Education",
+    "Point": "Jared Critchfield",
+    "Role": "Superintendent",
+    "Class": "Class VII",
+    "Address": "217 Rex Avenue, Jackson, CA 95642",
+    "Url": "https://www.amadorcoe.org/"
+  },
+  {
+    "FIPS": "06007",
+    "Region": "Region 2 - North Eastern",
+    "County": "Butte County Office of Education",
+    "Point": "Mary Sakuma",
+    "Role": "Superintendent",
+    "Class": "Class V",
+    "Address": "1859 Bird Street, Oroville, CA 95965",
+    "Url": "https://www.bcoe.org/"
+  },
+  {
+    "FIPS": "06009",
+    "Region": "Region 6 - Delta Sierra",
+    "County": "Calaveras County Office of Education",
+    "Point": "Jared Hungerford",
+    "Role": "Superintendent",
+    "Class": "Class VII",
+    "Address": "185 South Main Street, Angels Camp, CA 95221",
+    "Url": "https://www.ccoe.k12.ca.us/"
+  },
+  {
+    "FIPS": "06011",
+    "Region": "Region 3 - Capital Service Regional",
+    "County": "Colusa County Office of Education",
+    "Point": "Charles Wayman",
+    "Role": "Superintendent",
+    "Class": "Class VII",
+    "Address": "345 5th Street, Colusa, CA 95932",
+    "Url": "https://www.ccoe.net/"
+  },
+  {
+    "FIPS": "06013",
+    "Region": "Region 4 - Bay",
+    "County": "Contra Costa County Office of Education",
+    "Point": "Lynn Mackey",
+    "Role": "Superintendent",
+    "Class": "Class II",
+    "Address": "77 Santa Barbara Road, Pleasant Hill, CA 94523",
+    "Url": "https://www.cccoe.k12.ca.us/"
+  },
+  {
+    "FIPS": "06015",
+    "Region": "Region 1 - North Coast",
+    "County": "Del Norte County Office of Education",
+    "Point": "Jeff Harris",
+    "Role": "Superintendent",
+    "Class": "Class VII",
+    "Address": "301 West Washington Blvd., Crescent City, CA 95531",
+    "Url": "https://www.dncoe.org/"
+  },
+  {
+    "FIPS": "06017",
+    "Region": "Region 3 - Capital Service Regional",
+    "County": "El Dorado County Office of Education",
+    "Point": "Ed Manansala",
+    "Role": "Superintendent",
+    "Class": "Class IV",
+    "Address": "6767 Green Valley Road, Placerville, CA 95667",
+    "Url": "https://www.edcoe.org/"
+  },
+  {
+      "FIPS": "06019",
+    "Region": "Region 7 - Central Valley",
+    "County": "Fresno County Superintendent of Schools",
+    "Point": "Michele Cantwell-Copher",
+    "Role": "Superintendent",
+    "Class": "Class II",
+    "Address": "1111 Van Ness Avenue, Fresno, CA 93721-2000",
+    "Url": "https://www.fcoe.org/"
+  },
+  {
+    "FIPS": "06021",
+    "Region": "Region 2 - North Eastern",
+    "County": "Glenn County Office of Education",
+    "Point": "Ryan Bentz",
+    "Role": "Superintendent",
+    "Class": "Class VII",
+    "Address": "311 South Villa Avenue, Willows, CA 95988",
+    "Url": "https://www.glenncoe.org/"
+  },
+  {
+        "FIPS": "06023",
+    "Region": "Region 1 - North Coast",
+    "County": "Humboldt County Office of Education",
+    "Point": "Michael Davies-Hughes",
+    "Role": "Superintendent",
+    "Class": "Class V",
+    "Address": "901 Myrtle Avenue, Eureka CA 95501",
+    "Url": "https://hcoe.org/"
+  },
+  {
+        "FIPS": "06025",
+    "Region": "Region 9 - Southern",
+    "County": "Imperial County Office of Education",
+    "Point": "Todd Finnell",
+    "Role": "Superintendent",
+    "Class": "Class IV",
+    "Address": "1398 Sperber Road, El Centro, CA 92243",
+    "Url": "https://www.icoe.org/"
+  },
+  {
+        "FIPS": "06027",
+    "Region": "Region 10 - RIMS",
+    "County": "Inyo County Superintendent of Schools",
+    "Point": "Barry Simpson",
+    "Role": "Superintendent",
+    "Class": "Class VII",
+    "Address": "166 Grandview Drive, Bishop, CA 93514",
+    "Url": "https://www.inyocoe.org/"
+  },
+  {
+        "FIPS": "06029",
+    "Region": "Region 8 - Costa Del Sur",
+    "County": "Kern County Superintendent of Schools",
+    "Point": "John Mendiburu",
+    "Role": "Superintendent",
+    "Class": "Class II",
+    "Address": "1300 17th Street, City Centre, Bakersfield, CA, 93301",
+    "Url": "https://kern.org/"
+  },
+  {
+     "FIPS": "06031",
+    "Region": "Region 7 - Central Valley",
+    "County": "Kings County Office of Education",
+    "Point": "Todd Barlow",
+    "Role": "Superintendent",
+    "Class": "Class V",
+    "Address": "1144 West Lacey Blvd., Hanford, CA 93230",
+    "Url": "https://www.kingscoe.org/"
+  },
+  {
+    "FIPS": "06033",
+    "Region": "Region 1 - North Coast",
+    "County": "Lake County Office of Education",
+    "Point": "Brock Falkenberg",
+    "Role": "Superintendent",
+    "Class": "Class VI",
+    "Address": "1152 South Main Street, Lakeport, CA 95453",
+    "Url": "https://www.lakecoe.org/"
+  },
+  {
+    "FIPS": "06035",
+    "Region": "Region 2 - North Eastern",
+    "County": "Lassen County Office of Education",
+    "Point": "Patty Gunderson",
+    "Role": "Superintendent",
+    "Class": "Class VII",
+    "Address": "472-013 Johnstonville Road, North, Susanville, CA 96130",
+    "Url": "https://www.lcoe.org/"
+  },
+  {
+    "FIPS": "06037",
+    "Region": "Region 11 - Los Angeles",
+    "County": "Los Angeles County Office of Education",
+    "Point": "Debra Duardo",
+    "Role": "Superintendent",
+    "Class": "Class I",
+    "Address": "9300 Imperial Highway, Downey, CA 90242",
+    "Url": "https://www.lacoe.edu/"
+  },
+  {
+     "FIPS": "06039",
+    "Region": "Region 7 - Central Valley",
+    "County": "Madera County Superintendent of Schools",
+    "Point": "Tricia M. Protzman",
+    "Role": "Superintendent",
+    "Class": "Class IV",
+    "Address": "1105 South Madera Avenue, Madera, CA 93637",
+    "Url": "https://www.mcsos.org/"
+  },
+  {
+    "FIPS": "06041",
+    "Region": "Region 4 - Bay",
+    "County": "Marin County Office of Education",
+    "Point": "John Carroll",
+    "Role": "Superintendent",
+    "Class": "Class V",
+    "Address": "1111 Las Gallinas Avenue, San Rafael, CA 94903",
+    "Url": "https://www.marinschools.org/"
+  },
+  {
+    "FIPS": "06043",
+    "Region": "Region 7 - Central Valley",
+    "County": "Mariposa County Superintendent of Schools",
+    "Point": "Jeff Aranguena",
+    "Role": "Superintendent",
+    "Class": "Class VII",
+    "Address": "5082 Old Highway North, Mariposa, CA 95338",
+    "Url": "https://www.mcusd.org/District/Department/18-School-Board/1302-County-Office-of-Education.html"
+  },
+  {
+      "FIPS": "06045",
+    "Region": "Region 1 - North Coast",
+    "County": "Mendocino County Office of Education",
+    "Point": "Nicole H. Glentzer",
+    "Role": "Superintendent",
+    "Class": "Class VI",
+    "Address": "2240 Old River Road, Ukiah, CA 95482",
+    "Url": "https://www.mcoe.us/"
+  },
+  {
+        "FIPS": "06047",
+
+    "Region": "Region 7 - Central Valley",
+    "County": "Merced County Office of Education",
+    "Point": "Steve Tietjen",
+    "Role": "Superintendent",
+    "Class": "Class IV",
+    "Address": "632 West 13th, Merced, CA 95341",
+    "Url": "https://www.mcoe.org/"
+  },
+  
+  {    "FIPS": "06049",
+
+    "Region": "Region 2 - North Eastern",
+    "County": "Modoc County Office of Education",
+    "Point": "Mike Martin",
+    "Role": "Superintendent",
+    "Class": "Class VII",
+    "Address": "139 Henderson Street, Alturas, CA 96101",
+    "Url": "https://www.modoccoe.k12.ca.us/"
+  },
+  {
+        "FIPS": "06051",
+    "Region": "Region 10 - RIMS",
+    "County": "Mono County Office of Education",
+    "Point": "Tammy Bennett Nguyen",
+    "Role": "Superintendent",
+    "Class": "Class VII",
+    "Address": "451 Sierra Park Road, Mammoth Lakes, CA 93546",
+    "Url": "https://www.monocoe.org/"
+  },
+  {
+            "FIPS": "06053",
+    "Region": "Region 5 - South Bay",
+    "County": "Monterey County Office of Education",
+    "Point": "Deneen Guss",
+    "Role": "Superintendent",
+    "Class": "Class III",
+    "Address": "901 Blanco Circle, Salinas, CA 93901",
+    "Url": "https://www.montereycoe.org/"
+  },
+  {
+    "FIPS": "06055",
+    "Region": "Region 4 - Bay",
+    "County": "Napa County Office of Education",
+    "Point": "Josh Schultz",
+    "Role": "Superintendent",
+    "Class": "Class V",
+    "Address": "2121 Imola Ave, Napa, CA 94559",
+    "Url": "https://napacoe.org/"
+  },
+  {
+            "FIPS": "06057",
+    "Region": "Region 3 - Capital Service Regional",
+    "County": "Nevada County Superintendent of Schools",
+    "Point": "Scott W. Lay",
+    "Role": "Superintendent",
+    "Class": "Class VI",
+    "Address": "380 Crown Point Circle, Grass Valley, CA 95945",
+    "Url": "https://nevco.org/"
+  },
+  {
+            "FIPS": "06059",
+    "Region": "Region 9 - Southern",
+    "County": "Orange County Department of Education",
+    "Point": "Stefan Bean",
+    "Role": "Superintendent",
+    "Class": "Class II",
+    "Address": "200 Kalmus Drive, Costa Mesa, CA 92626",
+    "Url": "https://ocde.us/Pages/Home.aspx"
+  },
+  {
+            "FIPS": "06061",
+    "Region": "Region 3 - Capital Service Regional",
+    "County": "Placer County Office of Education",
+    "Point": "Gayle Garbolino-Mojica",
+    "Role": "Superintendent",
+    "Class": "Class III",
+    "Address": "360 Nevada Street, Auburn, CA 95603",
+    "Url": "https://www.placercoe.org/Pages/PCOE/Home.aspx"
+  },
+  {
+                "FIPS": "06063",
+
+    "Region": "Region 2 - North Eastern",
+    "County": "Plumas County Office of Education",
+    "Point": "Andrea White",
+    "Role": "Superintendent",
+    "Class": "Class VII",
+    "Address": "50 Church Street, Quincy, CA 95971",
+    "Url": "https://www.pcoe.k12.ca.us/"
+  },
+  {
+                "FIPS": "06065",
+
+    "Region": "Region 10 - RIMS",
+    "County": "Riverside County Office of Education",
+    "Point": "Edwin Gomez",
+    "Role": "Superintendent",
+    "Class": "Class II",
+    "Address": "3939 13th Street, Riverside, CA 92501",
+    "Url": "https://www.rcoe.us/"
+  },
+  {
+                "FIPS": "06067",
+
+    "Region": "Region 3 - Capital Service Regional",
+    "County": "Sacramento County Office of Education",
+    "Point": "David W. Gordon",
+    "Role": "Superintendent",
+    "Class": "Class II",
+    "Address": "10474 Mather Blvd., Mather, CA 95655",
+    "Url": "https://www.scoe.net/"
+  },
+  {
+                "FIPS": "06069",
+
+    "Region": "Region 5 - South Bay",
+    "County": "San Benito County Office of Education",
+    "Point": "Krystal Lomanto",
+    "Role": "Superintendent",
+    "Class": "Class VI",
+    "Address": "460 5th Street, Hollister, CA 95023",
+    "Url": "https://www.sbcoe.org/"
+  },
+  {
+"FIPS": "06071",
+
+    "Region": "Region 10 - RIMS",
+    "County": "San Bernardino County Superintendent of Schools",
+    "Point": "Ted Alejandre",
+    "Role": "Superintendent",
+    "Class": "Class II",
+    "Address": "601 North E Street, San Bernardino, CA 92415",
+    "Url": "https://www.sbcss.net/"
+  },
+  {
+    "FIPS": "06073",
+
+    "Region": "Region 9 - Southern",
+    "County": "San Diego County Office of Education",
+    "Point": "Gloria E. Ciriza",
+    "Role": "Superintendent",
+    "Class": "Class II",
+    "Address": "6401 Linda Vista Road, San Diego, CA 92111",
+    "Url": "https://www.sdcoe.net/"
+  },
+  {
+    "FIPS": "06075",
+
+    "Region": "Region 4 - Bay",
+    "County": "San Francisco Unified School District",
+    "Point": "VACANT",
+    "Role": "Superintendent",
+    "Class": "Class IV",
+    "Address": "555 Franklin Street, San Francisco, CA 94102",
+    "Url": "https://www.sfusd.edu/"
+  },
+  {
+    "FIPS": "06077",
+
+    "Region": "Region 6 - Delta Sierra",
+    "County": "San Joaquin County Office of Education",
+    "Point": "Troy A. Brown",
+    "Role": "Superintendent",
+    "Class": "Class II",
+    "Address": "2922 Transworld Drive, Stockton, CA 95206",
+    "Url": "https://www.sjcoe.org/"
+  },
+  {
+    "FIPS": "06079",
+
+    "Region": "Region 8 - Costa Del Sur",
+    "County": "San Luis Obispo County Office of Education",
+    "Point": "James \"Jim\" Brescia",
+    "Role": "Superintendent",
+    "Class": "Class IV",
+    "Address": "3350 Education Drive, San Luis Obispo, CA 93405",
+    "Url": "https://www.slocoe.org/"
+  },
+  {
+    "FIPS": "06081",
+
+    "Region": "Region 4 - Bay",
+    "County": "San Mateo County Office of Education",
+    "Point": "Marco Chávez",
+    "Role": "Superintendent",
+    "Class": "Class III",
+    "Address": "101 Twin Dolphin Drive, Redwood City, CA 94065",
+    "Url": "https://www.smcoe.org/"
+  },
+  {
+    "FIPS": "06083",
+    "Region": "Region 8 - Costa Del Sur",
+    "County": "Santa Barbara County Education Office",
+    "Point": "Susan Salcido",
+    "Role": "Superintendent",
+    "Class": "Class III",
+    "Address": "4400 Cathedral Oaks Road, Santa Barbara, CA 93110",
+    "Url": "https://www.sbceo.org/"
+  },
+  {
+    "FIPS": "06085",
+    "Region": "Region 5 - South Bay",
+    "County": "Santa Clara County Office of Education",
+    "Point": "David M. Toston, Sr.",
+    "Role": "Superintendent",
+    "Class": "Class II",
+    "Address": "1290 Ridder Park Drive, San Jose, CA 95131",
+    "Url": "https://www.sccoe.org/Pages/SCCOE%20Home.aspx"
+  },
+  {
+    "FIPS": "06087",
+    "Region": "Region 5 - South Bay",
+    "County": "Santa Cruz County Office of Education",
+    "Point": "Faris Sabbah",
+    "Role": "Superintendent",
+    "Class": "Class IV",
+    "Address": "400 Encinal Street, Santa Cruz, CA 95060",
+    "Url": "https://santacruzcoe.org/"
+  },
+  {
+    "FIPS": "06089",
+    "Region": "Region 2 - North Eastern",
+    "County": "Shasta County Office of Education",
+    "Point": "Mike Freeman",
+    "Role": "Superintendent",
+    "Class": "Class V",
+    "Address": "1644 Magnolia Avenue, Redding, CA 96001",
+    "Url": "https://www.shastacoe.org/"
+  },
+  {
+    "FIPS": "06091",
+    "Region": "Region 3 - Capital Service Regional",
+    "County": "Sierra County Office of Education",
+    "Point": "Sean Snider",
+    "Role": "Superintendent",
+    "Class": "Class VIII",
+    "Address": "109 Beckwith Road, Loyalton, CA 96118",
+    "Url": "https://www.sierracountyschools.org/"
+  },
+  {
+    "FIPS": "06093",
+    "Region": "Region 2 - North Eastern",
+    "County": "Siskiyou County Office of Education",
+    "Point": "Allan S. Carver",
+    "Role": "Superintendent",
+    "Class": "Class VII",
+    "Address": "609 South Gold Street, Yreka, CA 96097",
+    "Url": "https://www.siskiyoucoe.net/"
+  },
+  {
+    "FIPS": "06095",
+    "Region": "Region 4 - Bay",
+    "County": "Solano County Office of Education",
+    "Point": "Nicola Parr",
+    "Role": "Superintendent",
+    "Class": "Class IV",
+    "Address": "5100 Business Center Drive, Fairfield, CA 94534",
+    "Url": "https://www.solanocoe.net/"
+  },
+  {
+    "FIPS": "06097",
+    "Region": "Region 1 - North Coast",
+    "County": "Sonoma County Office of Education",
+    "Point": "Amie Carter",
+    "Role": "Superintendent",
+    "Class": "Class III",
+    "Address": "5340 Skylane Blvd., Santa Rosa, CA 95403",
+    "Url": "https://www.scoe.org/"
+  },
+  {
+    "FIPS": "06099",
+    "Region": "Region 6 - Delta Sierra",
+    "County": "Stanislaus County Office of Education",
+    "Point": "Scott Kuykendall",
+    "Role": "Superintendent",
+    "Class": "Class III",
+    "Address": "1100 H Street, Modesto, CA 95354",
+    "Url": "https://www.stancoe.org/"
+  },
+  {
+    "FIPS": "06101",
+    "Region": "Region 3 - Capital Service Regional",
+    "County": "Sutter County Superintendent of Schools",
+    "Point": "Tom Reusser",
+    "Role": "Superintendent",
+    "Class": "Class V",
+    "Address": "970 Klamath Lane, Yuba City, CA 95993",
+    "Url": "https://www.sutter.k12.ca.us/"
+  },
+  {
+    "FIPS": "06103",
+    "Region": "Region 2 - North Eastern",
+    "County": "Tehama County Department of Education",
+    "Point": "Jared Caylor",
+    "Role": "Superintendent",
+    "Class": "Class VI",
+    "Address": "1135 Lincoln Street, Red Bluff, CA 96080",
+    "Url": "https://www.tehamaschools.org/"
+  },
+  {
+    "FIPS": "06105",
+    "Region": "Region 2 - North Eastern",
+    "County": "Trinity County Office of Education",
+    "Point": "Fabio Robles",
+    "Role": "Superintendent",
+    "Class": "Class VII",
+    "Address": "201 Memorial Drive, Weaverville, CA 96093",
+    "Url": "https://www.tcoek12.org/"
+  },
+  {
+    "FIPS": "06107",
+    "Region": "Region 7 - Central Valley",
+    "County": "Tulare County Superintendent of Schools",
+    "Point": "Tim Hire",
+    "Role": "Superintendent",
+    "Class": "Class III",
+    "Address": "6200 S Mooney Blvd., Visalia, CA 93278",
+    "Url": "https://www.tcoe.org/"
+  },
+  {
+    "FIPS": "06109",
+    "Region": "Region 6 - Delta Sierra",
+    "County": "Tuolumne County Superintendent of Schools",
+    "Point": "Zachary J. Abernathy",
+    "Role": "Superintendent",
+    "Class": "Class VII",
+    "Address": "175 Fairview Lane, Sonora, CA 95370",
+    "Url": "https://www.tcsos.us/"
+  },
+  {
+    "FIPS": "06111",
+    "Region": "Region 8 - Costa Del Sur",
+    "County": "Ventura County Office of Education",
+    "Point": "Cesar Morales",
+    "Role": "Superintendent",
+    "Class": "Class III",
+    "Address": "5189 Verdugo Way, Camarillo, CA 93012",
+    "Url": "https://www.vcoe.org/"
+  },
+  {
+     "FIPS": "06113",
+    "Region": "Region 3 - Capital Service Regional",
+    "County": "Yolo County Office of Education",
+    "Point": "Garth Lewis",
+    "Role": "Superintendent",
+    "Class": "Class V",
+    "Address": "1280 Santa Anita Court, Ste. 100, Woodland, CA 95776",
+    "Url": "https://www.ycoe.org/"
+  },
+  {
+    "FIPS": "06115",
+    "Region": "Region 3 - Capital Service Regional",
+    "County": "Yuba County Office of Education",
+    "Point": "Rob Gregor",
+    "Role": "Superintendent",
+    "Class": "Class V",
+    "Address": "935 14th Street, Marysville, CA 95901",
+    "Url": "https://www.yubacoe.org/"
+  }
+]
