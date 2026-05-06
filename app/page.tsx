@@ -216,12 +216,8 @@ useMemo(() => {
     />
 
     <div
-      style={{
-        padding: "24px",
-        background: "#f9f9f9",
-        overflowY: "auto",
-      }}
-      className="flex-none h-auto max-h-[500px] md:max-h-none md:flex-1 border-t md:border-t-0 md:border-l border-[#ddd] shadow-[0_-2px_10px_rgba(0,0,0,0.05)] md:shadow-none"
+
+      className="p-6 bg-[#f9f9f9] overflow-y-auto flex-none h-auto max-h-[500px] md:max-h-none md:flex-1 border-t md:border-t-0 md:border-l border-[#ddd] shadow-[0_-2px_10px_rgba(0,0,0,0.05)] md:shadow-none"
     >
       <h2 className='text-[#333333] border-b-2 border-b-blue-950 text-center font-bold pb-2'>
         County Details {selectedFips && "📍"}
@@ -229,7 +225,7 @@ useMemo(() => {
 
       {hoveredData ? (
         <div className="text-black text-center mt-4">
-          <h3 className="text-lg font-bold" style={{ margin: "0 0 5px 0" }}>
+          <h3 className="text-lg font-bold my-2">
             {hoveredData.County}
           </h3>
           <p className="text-gray-600 text-sm mb-2">
