@@ -3,10 +3,16 @@
 import { useEffect, useRef, useState, useMemo } from "react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
+import { Open_Sans } from "next/font/google";
 
 mapboxgl.accessToken =
   process.env.NEXT_PUBLIC_MAPBOX_TOKEN || "YOUR_MAPBOX_TOKEN";
 
+
+  const openSans = Open_Sans({
+    variable: "--font-open-sans",
+    subsets: ["latin"],
+  });
 interface CountyData {
   fips: string;
   Region: string;
@@ -301,7 +307,7 @@ const regionColorMap: Record<string, [string, string]> = {
         </h2>
 
         {hoveredData ? (
-          <div className=" text-center mt-4">
+          <div className="text-center mt-4 openSans">
             <h3 className="text-md font-bold my-2">{hoveredData.County}</h3>
             <p className="text-white text-sm mb-2 border-b-2 border-b-[#FFC600]">{hoveredData.Region}</p>
             <div className="space-y-3 text-sm">
