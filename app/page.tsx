@@ -293,34 +293,32 @@ const regionColorMap: Record<string, [string, string]> = {
 
   return (
     <div className="flex flex-col md:flex-row h-screen w-full overflow-hidden">
-      <div ref={mapContainer} className="flex-1 md:flex-[3] w-full" />
+      <div ref={mapContainer} className="flex-1 md:flex-3 w-full" />
 
-      <div className="p-6 bg-[#f9f9f9] overflow-y-auto flex-none h-auto max-h-[500px] md:max-h-none md:flex-1 border-t md:border-t-0 md:border-l border-[#ddd] shadow-[0_-2px_10px_rgba(0,0,0,0.05)] md:shadow-none">
-        <h2 className="text-[#333333] border-b-2 border-b-blue-950 text-center font-bold pb-2">
-          County Details {selectedFips}
+      <div className="p-6 text-002856 bg-[#002856] overflow-y-auto flex-none h-auto max-h-[500px] md:max-h-none md:flex-1 border-t md:border-t-0 md:border-l border-[#ddd] shadow-[0_-2px_10px_rgba(0,0,0,0.05)] md:shadow-none">
+        <h2 className="border-b-2 border-b-[#FFC600] text-center text-lg font-bold pb-2">
+          County Details
         </h2>
 
         {hoveredData ? (
-          <div className="text-black text-center mt-4">
-            <h3 className="text-lg font-bold my-2">{hoveredData.County}</h3>
-            <p className="text-gray-600 text-sm mb-2">{hoveredData.Region}</p>
-            <hr className="my-3" />
-
+          <div className=" text-center mt-4">
+            <h3 className="text-md font-bold my-2">{hoveredData.County}</h3>
+            <p className="text-white text-sm mb-2 border-b-2 border-b-[#FFC600]">{hoveredData.Region}</p>
             <div className="space-y-3 text-sm">
               <p>
-                <strong className="block text-xs uppercase text-gray-500">
+                <strong className="block text-xs uppercase text-white">
                   {hoveredData.Role}
                 </strong>
                 {hoveredData.Point}
               </p>
               <p>
-                <strong className="block text-xs uppercase text-gray-500">
+                <strong className="block text-xs uppercase text-white">
                   Address
                 </strong>
                 {hoveredData.Address}
               </p>
               <p>
-                <strong className="block text-xs uppercase text-gray-500">
+                <strong className="block text-xs uppercase text-white">
                   Class
                 </strong>{" "}
                 {hoveredData.Class}
@@ -349,7 +347,7 @@ const regionColorMap: Record<string, [string, string]> = {
                       "",
                     ]);
                   }}
-                  className="text-gray-500 text-xs underline hover:text-black cursor-pointer"
+                  className="text-white text-xs underline cursor-pointer"
                 >
                   Clear Selection
                 </button>
@@ -357,7 +355,7 @@ const regionColorMap: Record<string, [string, string]> = {
             </div>
           </div>
         ) : (
-          <p className="text-gray-500 text-center mt-8 italic text-sm">
+          <p className="text-white text-center mt-8 text-sm">
             Hover over a county or click to lock details.
           </p>
         )}
