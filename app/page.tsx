@@ -4,6 +4,7 @@ import { useEffect, useRef, useState, useMemo } from "react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import { Open_Sans } from "next/font/google";
+import Image from 'next/image'
 
 mapboxgl.accessToken =
   process.env.NEXT_PUBLIC_MAPBOX_TOKEN || "YOUR_MAPBOX_TOKEN";
@@ -299,34 +300,37 @@ const regionColorMap: Record<string, [string, string]> = {
   return (
     <div className="flex flex-col md:flex-row h-screen w-full overflow-hidden">
       <div ref={mapContainer} className="flex-1 md:flex-3 w-full" />
-
-      <div className="p-6 text-002856 bg-[#002856] overflow-y-auto flex-none h-auto max-h-[500px] md:max-h-none md:flex-1 border-t md:border-t-0 md:border-l border-[#ddd] shadow-[0_-2px_10px_rgba(0,0,0,0.05)] md:shadow-none">
+      <div className="p-6 text-[#002856] bg-white overflow-y-auto flex-none h-auto max-h-[500px] md:max-h-none md:flex-1 border-t md:border-t-0 md:border-l border-[#ddd] shadow-[0_-2px_10px_rgba(0,0,0,0.05)] md:shadow-none">
+        <picture>
+      <source media="(min-width: 768px)" srcSet="/California-County-Superintendents---Secondary-Logo.png" />
+      <source media="(max-width: 767px)" srcSet="/California-County-Superintendents---Primary-Logo.png" />
+     <Image
+        src="/California-County-Superintendents---Secondary-Logo.png"
+        alt="California County Superintendents Logo "
+        width={200}
+        height={200}
+        className="bg-cover flex place-self-center"
+      />
+    </picture>
         <h2 className="border-b-2 border-b-[#FFC600] text-center text-lg font-bold pb-2">
-          County Details
         </h2>
 
         {hoveredData ? (
-          <div className="text-center mt-4 openSans">
-            <h3 className="text-md font-bold my-2">{hoveredData.County}</h3>
-            <p className="text-white text-sm mb-2 border-b-2 border-b-[#FFC600]">{hoveredData.Region}</p>
+          <div className="text-center openSans">
+            <h3 className="text-md font-extrabold mt-2">{hoveredData.Region}</h3>
+            <p className="text-[#002856] text-md font-bold pb-2 border-b-2 border-b-[#FFC600]">{hoveredData.County}</p>
             <div className="space-y-3 text-sm">
               <p>
-                <strong className="block text-xs uppercase text-white">
-                  {hoveredData.Role}
-                </strong>
+                <span className="block text-sm mt-5 text-[#002856]">
                 {hoveredData.Point}
+                </span>
+                {hoveredData.Role}
               </p>
               <p>
-                <strong className="block text-xs uppercase text-white">
-                  Address
-                </strong>
-                {hoveredData.Address}
-              </p>
-              <p>
-                <strong className="block text-xs uppercase text-white">
-                  Class
-                </strong>{" "}
                 {hoveredData.Class}
+              </p>
+              <p>
+                {hoveredData.Address}
               </p>
             </div>
 
@@ -334,8 +338,7 @@ const regionColorMap: Record<string, [string, string]> = {
               <a
                 href={hoveredData.Url}
                 target="_blank"
-                rel="noreferrer"
-                className="bg-[#00528a] text-white px-4 py-2 rounded shadow hover:bg-[#003d66] transition-colors inline-block w-full max-w-[200px]"
+                className="bg-[#002856] text-white px-4 py-2 rounded shadow hover:bg-[#003d66] transition-colors inline-block w-full max-w-[200px]"
               >
                 Official Website
               </a>
@@ -352,7 +355,7 @@ const regionColorMap: Record<string, [string, string]> = {
                       "",
                     ]);
                   }}
-                  className="text-white text-xs underline cursor-pointer"
+                  className="text-[#002856] text-xs underline cursor-pointer"
                 >
                   Clear Selection
                 </button>
@@ -360,7 +363,7 @@ const regionColorMap: Record<string, [string, string]> = {
             </div>
           </div>
         ) : (
-          <p className="text-white text-center mt-8 text-sm">
+          <p className="text-[#002856] text-center mt-8 text-sm">
             Hover over a county or click to lock details.
           </p>
         )}
