@@ -301,7 +301,7 @@ const regionColorMap: Record<string, [string, string]> = {
     <div className="flex flex-col md:flex-row h-screen w-full overflow-hidden">
       <div ref={mapContainer} className="flex-1 md:flex-3 w-full" />
       <div className="p-6 text-[#002856] bg-white overflow-y-auto flex flex-col items-center h-auto max-h-[500px] md:max-h-none md:flex-1 border-t md:border-t-0 md:border-l border-[#ddd] shadow-[0_-2px_10px_rgba(0,0,0,0.05)] md:shadow-none">
-        <picture>
+        <picture className="flex place-items-center place-self-center justify-center">
       <source media="(min-width: 768px)" srcSet="/California-County-Superintendents---Secondary-Logo.png" />
       <source media="(max-width: 767px)" srcSet="/California-County-Superintendents---Primary-Logo.png" />
      <Image
@@ -309,7 +309,7 @@ const regionColorMap: Record<string, [string, string]> = {
         alt="California County Superintendents Logo "
         width={200}
         height={200}
-        className="bg-cover flex place-self-center"
+        className="bg-cover flex place-items-center place-self-center justify-center"
         style={{height: "auto"}}
         loading="eager"
       />
