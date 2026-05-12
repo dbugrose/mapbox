@@ -196,7 +196,6 @@ const regionColorMap: Record<string, [string, string]> = {
         source: "counties",
         layout: {
           "text-field": ["get", "name"],
-          "text-font": ["Open Sans Bold"],
           "text-size": 12,
         },
         paint: {
