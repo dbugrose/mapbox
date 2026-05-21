@@ -23,6 +23,9 @@ interface CountyData {
   Class: string;
   Address: string;
   Url: string;
+  Districts: string;
+  Charters: string;
+  ADA: string;
 }
 
 export default function Page() {
@@ -320,15 +323,11 @@ const regionColorMap: Record<string, [string, string]> = {
             <h3 className="text-lg font-extrabold mt-2 border-t-[#FFC600] border-t-2 pt-2">{hoveredData.Region}</h3>
             <p className="text-[#002856] text-md font-bold pb-2 border-b-2 border-b-[#FFC600]">{hoveredData.County}</p>
             <div className="space-y-3 text-sm">
-              <p>
-                <span className="block text-sm mt-5 text-[#002856]">
-                {hoveredData.Point}
-                </span>
-                {hoveredData.Role}
+              <p className="text-sm mt-5 text-[#002856]">
+                {hoveredData.Point}, {hoveredData.Role} <br/>
+               <b>{hoveredData.Class}</b> | <b>Charters:</b> {hoveredData.Charters} | <b>Districts:</b> {hoveredData.Districts}
               </p>
-              <p>
-                {hoveredData.Class}
-              </p>
+              <p><b>ADA: </b>{hoveredData.ADA}</p>
               <p>
                 {hoveredData.Address}
               </p>

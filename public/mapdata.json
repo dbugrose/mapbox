@@ -7,7 +7,10 @@
     "Role": "Superintendent",
     "Class": "Class II",
     "Address": "313 West Winton Avenue, Hayward, CA 94544",
-    "Url": "https://www.acoe.org/"
+    "Url": "https://www.acoe.org/",
+    "Districts": "18",
+    "Charters": "53",
+    "ADA" : "197189.19"
     },
   {
     "fips": "06003",
@@ -17,7 +20,10 @@
     "Role": "Superintendent",
     "Class": "Class VIII",
     "Address": "43 Hawkside Drive, Markleeville, CA 96120",
-    "Url": "https://www.alpinecoe.k12.ca.us/"
+    "Url": "https://www.alpinecoe.k12.ca.us/",
+    "Districts": "1",
+    "Charters": "0",
+    "ADA" : "68.97"
   },
   {
     "fips": "06005",
@@ -27,7 +33,10 @@
     "Role": "Superintendent",
     "Class": "Class VII",
     "Address": "217 Rex Avenue, Jackson, CA 95642",
-    "Url": "https://www.amadorcoe.org/"
+    "Url": "https://www.amadorcoe.org/",
+    "Districts": "1",
+    "Charters": "1",
+    "ADA" : "3775.45"
   },
   {
     "fips": "06007",
@@ -37,7 +46,10 @@
     "Role": "Superintendent",
     "Class": "Class V",
     "Address": "1859 Bird Street, Oroville, CA 95965",
-    "Url": "https://www.bcoe.org/"
+    "Url": "https://www.bcoe.org/",
+    "Districts": "13",
+    "Charters": "17",
+    "ADA" : "27711.53"
   },
   {
     "fips": "06009",
@@ -47,7 +59,10 @@
     "Role": "Superintendent",
     "Class": "Class VII",
     "Address": "185 South Main Street, Angels Camp, CA 95221",
-    "Url": "https://www.ccoe.k12.ca.us/"
+    "Url": "https://www.ccoe.k12.ca.us/",
+    "Districts": "4",
+    "Charters": "1",
+    "ADA" : "4828.51"
   },
   {
     "fips": "06011",
@@ -57,7 +72,10 @@
     "Role": "Superintendent",
     "Class": "Class VII",
     "Address": "345 5th Street, Colusa, CA 95932",
-    "Url": "https://www.ccoe.net/"
+    "Url": "https://www.ccoe.net/",
+    "Districts": "4",
+    "Charters": "0",
+    "ADA" : "4281.39"
   },
   {
     "fips": "06013",
@@ -67,7 +85,10 @@
     "Role": "Superintendent",
     "Class": "Class II",
     "Address": "77 Santa Barbara Road, Pleasant Hill, CA 94523",
-    "Url": "https://www.cccoe.k12.ca.us/"
+    "Url": "https://www.cccoe.k12.ca.us/",
+    "Districts": "18",
+    "Charters": "23",
+    "ADA" : "157943.39"
   },
   {
     "fips": "06015",
@@ -77,7 +98,10 @@
     "Role": "Superintendent",
     "Class": "Class VII",
     "Address": "301 West Washington Blvd., Crescent City, CA 95531",
-    "Url": "https://www.dncoe.org/"
+    "Url": "https://www.dncoe.org/",
+    "Districts": "1",
+    "Charters": "2",
+    "ADA" : "3704.99"
   },
   {
     "fips": "06017",
@@ -87,7 +111,10 @@
     "Role": "Superintendent",
     "Class": "Class IV",
     "Address": "6767 Green Valley Road, Placerville, CA 95667",
-    "Url": "https://www.edcoe.org/"
+    "Url": "https://www.edcoe.org/",
+    "Districts": "15",
+    "Charters": "13",
+    "ADA" : "30796.42"
   },
   {
       "fips": "06019",
@@ -97,7 +124,10 @@
     "Role": "Superintendent",
     "Class": "Class II",
     "Address": "1111 Van Ness Avenue, Fresno, CA 93721-2000",
-    "Url": "https://www.fcoe.org/"
+    "Url": "https://www.fcoe.org/",
+    "Districts": "32",
+    "Charters": "39",
+    "ADA" : "192725.01"
   },
   {
     "fips": "06021",
@@ -107,7 +137,10 @@
     "Role": "Superintendent",
     "Class": "Class VII",
     "Address": "311 South Villa Avenue, Willows, CA 95988",
-    "Url": "https://www.glenncoe.org/"
+    "Url": "https://www.glenncoe.org/",
+    "Districts": "8",
+    "Charters": "3",
+    "ADA" : "6258.29" 
   },
   {
         "fips": "06023",
@@ -117,7 +150,10 @@
     "Role": "Superintendent",
     "Class": "Class V",
     "Address": "901 Myrtle Avenue, Eureka CA 95501",
-    "Url": "https://hcoe.org/"
+    "Url": "https://hcoe.org/",
+    "Districts": "31",
+    "Charters": "14",
+    "ADA" : "15814.87"
   },
   {
         "fips": "06025",
@@ -127,7 +163,10 @@
     "Role": "Superintendent",
     "Class": "Class IV",
     "Address": "1398 Sperber Road, El Centro, CA 92243",
-    "Url": "https://www.icoe.org/"
+    "Url": "https://www.icoe.org/",
+    "Districts": "16",
+    "Charters": "4",
+    "ADA" : "33169.26"
   },
   {
         "fips": "06027",
@@ -137,7 +176,10 @@
     "Role": "Superintendent",
     "Class": "Class VII",
     "Address": "166 Grandview Drive, Bishop, CA 93514",
-    "Url": "https://www.inyocoe.org/"
+    "Url": "https://www.inyocoe.org/",
+    "Districts": "6",
+    "Charters": "3",
+    "ADA" : "3379.24"
   },
   {
         "fips": "06029",
@@ -147,7 +189,10 @@
     "Role": "Superintendent",
     "Class": "Class II",
     "Address": "1300 17th Street, City Centre, Bakersfield, CA, 93301",
-    "Url": "https://kern.org/"
+    "Url": "https://kern.org/",
+    "Districts": "46",
+    "Charters": "15",
+    "ADA" : "187172.69"
   },
   {
      "fips": "06031",
@@ -157,7 +202,10 @@
     "Role": "Superintendent",
     "Class": "Class V",
     "Address": "1144 West Lacey Blvd., Hanford, CA 93230",
-    "Url": "https://www.kingscoe.org/"
+    "Url": "https://www.kingscoe.org/",
+    "Districts": "13",
+    "Charters": "14",
+    "ADA" : "27921.11"
   },
   {
     "fips": "06033",
@@ -167,7 +215,10 @@
     "Role": "Superintendent",
     "Class": "Class VI",
     "Address": "1152 South Main Street, Lakeport, CA 95453",
-    "Url": "https://www.lakecoe.org/"
+    "Url": "https://www.lakecoe.org/",
+    "Districts": "6",
+    "Charters": "2",
+    "ADA" : "9121.47"
   },
   {
     "fips": "06035",
@@ -177,7 +228,10 @@
     "Role": "Superintendent",
     "Class": "Class VII",
     "Address": "472-013 Johnstonville Road, North, Susanville, CA 96130",
-    "Url": "https://www.lcoe.org/"
+    "Url": "https://www.lcoe.org/",
+    "Districts": "10",
+    "Charters": "3",
+    "ADA" : "3475.2"
   },
   {
     "fips": "06037",
@@ -187,7 +241,10 @@
     "Role": "Superintendent",
     "Class": "Class I",
     "Address": "9300 Imperial Highway, Downey, CA 90242",
-    "Url": "https://www.lacoe.edu/"
+    "Url": "https://www.lacoe.edu/",
+    "Districts": "80",
+    "Charters": "371",
+    "ADA" : "1193156"
   },
   {
      "fips": "06039",
@@ -197,7 +254,10 @@
     "Role": "Superintendent",
     "Class": "Class IV",
     "Address": "1105 South Madera Avenue, Madera, CA 93637",
-    "Url": "https://www.mcsos.org/"
+    "Url": "https://www.mcsos.org/",
+    "Districts": "9",
+    "Charters": "11",
+    "ADA" : "30045.49"
   },
   {
     "fips": "06041",
@@ -207,7 +267,10 @@
     "Role": "Superintendent",
     "Class": "Class V",
     "Address": "1111 Las Gallinas Avenue, San Rafael, CA 94903",
-    "Url": "https://www.marinschools.org/"
+    "Url": "https://www.marinschools.org/",
+    "Districts": "18",
+    "Charters": "4",
+    "ADA" : "28389.5"
   },
   {
     "fips": "06043",
@@ -217,7 +280,10 @@
     "Role": "Superintendent",
     "Class": "Class VII",
     "Address": "5082 Old Highway North, Mariposa, CA 95338",
-    "Url": "https://www.mcusd.org/District/Department/18-School-Board/1302-County-Office-of-Education.html"
+    "Url": "https://www.mcusd.org/District/Department/18-School-Board/1302-County-Office-of-Education.html",
+    "Districts": "1",
+    "Charters": "1",
+    "ADA" : "1676.19"
   },
   {
       "fips": "06045",
@@ -227,29 +293,36 @@
     "Role": "Superintendent",
     "Class": "Class VI",
     "Address": "2240 Old River Road, Ukiah, CA 95482",
-    "Url": "https://www.mcoe.us/"
+    "Url": "https://www.mcoe.us/",
+    "Districts": "12",
+    "Charters": "10",
+    "ADA" : "11615.42"
   },
   {
-        "fips": "06047",
-
+    "fips": "06047",
     "Region": "Region 7 - Central Valley",
     "County": "Merced County Office of Education",
     "Point": "Steve Tietjen",
     "Role": "Superintendent",
     "Class": "Class IV",
     "Address": "632 West 13th, Merced, CA 95341",
-    "Url": "https://www.mcoe.org/"
+    "Url": "https://www.mcoe.org/",
+    "Districts": "20",
+    "Charters": "3",
+    "ADA" : "55528.84"
   },
   
   {    "fips": "06049",
-
     "Region": "Region 2 - North Eastern",
     "County": "Modoc County Office of Education",
     "Point": "Mike Martin",
     "Role": "Superintendent",
     "Class": "Class VII",
     "Address": "139 Henderson Street, Alturas, CA 96101",
-    "Url": "https://www.modoccoe.k12.ca.us/"
+    "Url": "https://www.modoccoe.k12.ca.us/",
+    "Districts": "3",
+    "Charters": "0",
+    "ADA" : "1239.33"
   },
   {
         "fips": "06051",
@@ -259,7 +332,10 @@
     "Role": "Superintendent",
     "Class": "Class VII",
     "Address": "451 Sierra Park Road, Mammoth Lakes, CA 93546",
-    "Url": "https://www.monocoe.org/"
+    "Url": "https://www.monocoe.org/",
+    "Districts": "2",
+    "Charters": "1",
+    "ADA" : "1576.76"
   },
   {
             "fips": "06053",
@@ -269,7 +345,10 @@
     "Role": "Superintendent",
     "Class": "Class III",
     "Address": "901 Blanco Circle, Salinas, CA 93901",
-    "Url": "https://www.montereycoe.org/"
+    "Url": "https://www.montereycoe.org/",
+    "Districts": "24",
+    "Charters": "8",
+    "ADA" : "67632.46"
   },
   {
     "fips": "06055",
@@ -279,7 +358,10 @@
     "Role": "Superintendent",
     "Class": "Class V",
     "Address": "2121 Imola Ave, Napa, CA 94559",
-    "Url": "https://napacoe.org/"
+    "Url": "https://napacoe.org/",
+    "Districts": "5",
+    "Charters": "3",
+    "ADA" : "17370.38"
   },
   {
             "fips": "06057",
@@ -289,7 +371,10 @@
     "Role": "Superintendent",
     "Class": "Class VI",
     "Address": "380 Crown Point Circle, Grass Valley, CA 95945",
-    "Url": "https://nevco.org/"
+    "Url": "https://nevco.org/",
+    "Districts": "9",
+    "Charters": "15",
+    "ADA" : "10363.69"
   },
   {
             "fips": "06059",
@@ -299,7 +384,10 @@
     "Role": "Superintendent",
     "Class": "Class II",
     "Address": "200 Kalmus Drive, Costa Mesa, CA 92626",
-    "Url": "https://ocde.us/Pages/Home.aspx"
+    "Url": "https://ocde.us/Pages/Home.aspx",
+    "Districts": "28",
+    "Charters": "38",
+    "ADA" : "408800.66"
   },
   {
             "fips": "06061",
@@ -309,51 +397,62 @@
     "Role": "Superintendent",
     "Class": "Class III",
     "Address": "360 Nevada Street, Auburn, CA 95603",
-    "Url": "https://www.placercoe.org/Pages/PCOE/Home.aspx"
+    "Url": "https://www.placercoe.org/Pages/PCOE/Home.aspx",
+    "Districts": "16",
+    "Charters": "21",
+    "ADA" : "73008.03"
   },
   {
-                "fips": "06063",
-
+    "fips": "06063",
     "Region": "Region 2 - North Eastern",
     "County": "Plumas County Office of Education",
     "Point": "Andrea White",
     "Role": "Superintendent",
     "Class": "Class VII",
     "Address": "50 Church Street, Quincy, CA 95971",
-    "Url": "https://www.pcoe.k12.ca.us/"
+    "Url": "https://www.pcoe.k12.ca.us/",
+    "Districts": "1",
+    "Charters": "1",
+    "ADA" : "1850.17"
   },
   {
-                "fips": "06065",
-
+    "fips": "06065",
     "Region": "Region 10 - RIMS",
     "County": "Riverside County Office of Education",
     "Point": "Edwin Gomez",
     "Role": "Superintendent",
     "Class": "Class II",
     "Address": "3939 13th Street, Riverside, CA 92501",
-    "Url": "https://www.rcoe.us/"
+    "Url": "https://www.rcoe.us/",
+    "Districts": "23",
+    "Charters": "32",
+    "ADA" : "389789.92"
   },
   {
-                "fips": "06067",
-
+    "fips": "06067",
     "Region": "Region 3 - Capital Service Regional",
     "County": "Sacramento County Office of Education",
     "Point": "David W. Gordon",
     "Role": "Superintendent",
     "Class": "Class II",
     "Address": "10474 Mather Blvd., Mather, CA 95655",
-    "Url": "https://www.scoe.net/"
+    "Url": "https://www.scoe.net/",
+    "Districts": "13",
+    "Charters": "52",
+    "ADA" : "236168.03"
   },
   {
-                "fips": "06069",
-
+    "fips": "06069",
     "Region": "Region 5 - South Bay",
     "County": "San Benito County Office of Education",
     "Point": "Krystal Lomanto",
     "Role": "Superintendent",
     "Class": "Class VI",
     "Address": "460 5th Street, Hollister, CA 95023",
-    "Url": "https://www.sbcoe.org/"
+    "Url": "https://www.sbcoe.org/",
+    "Districts": "11",
+    "Charters": "1",
+    "ADA" : "11267.5"
   },
   {
 "fips": "06071",
@@ -364,7 +463,10 @@
     "Role": "Superintendent",
     "Class": "Class II",
     "Address": "601 North E Street, San Bernardino, CA 92415",
-    "Url": "https://www.sbcss.net/"
+    "Url": "https://www.sbcss.net/",
+    "Districts": "33",
+    "Charters": "52",
+    "ADA" : "371263.15"
   },
   {
     "fips": "06073",
@@ -375,40 +477,49 @@
     "Role": "Superintendent",
     "Class": "Class II",
     "Address": "6401 Linda Vista Road, San Diego, CA 92111",
-    "Url": "https://www.sdcoe.net/"
+    "Url": "https://www.sdcoe.net/",
+    "Districts": "42",
+    "Charters": "135",
+    "ADA" : "448141.44"
   },
   {
     "fips": "06075",
-
     "Region": "Region 4 - Bay",
     "County": "San Francisco Unified School District",
     "Point": "VACANT",
     "Role": "Superintendent",
     "Class": "Class IV",
     "Address": "555 Franklin Street, San Francisco, CA 94102",
-    "Url": "https://www.sfusd.edu/"
+    "Url": "https://www.sfusd.edu/",
+    "Districts": "1",
+    "Charters": "17",
+    "ADA" : "51451.23"
   },
   {
     "fips": "06077",
-
     "Region": "Region 6 - Delta Sierra",
     "County": "San Joaquin County Office of Education",
     "Point": "Troy A. Brown",
     "Role": "Superintendent",
     "Class": "Class II",
     "Address": "2922 Transworld Drive, Stockton, CA 95206",
-    "Url": "https://www.sjcoe.org/"
+    "Url": "https://www.sjcoe.org/",
+    "Districts": "14",
+    "Charters": "46",
+    "ADA" : "145212.62"
   },
   {
     "fips": "06079",
-
     "Region": "Region 8 - Costa Del Sur",
     "County": "San Luis Obispo County Office of Education",
     "Point": "James \"Jim\" Brescia",
     "Role": "Superintendent",
     "Class": "Class IV",
     "Address": "3350 Education Drive, San Luis Obispo, CA 93405",
-    "Url": "https://www.slocoe.org/"
+    "Url": "https://www.slocoe.org/",
+    "Districts": "10",
+    "Charters": "3",
+    "ADA" : "30607.75"
   },
   {
     "fips": "06081",
@@ -419,7 +530,10 @@
     "Role": "Superintendent",
     "Class": "Class III",
     "Address": "101 Twin Dolphin Drive, Redwood City, CA 94065",
-    "Url": "https://www.smcoe.org/"
+    "Url": "https://www.smcoe.org/",
+    "Districts": "23",
+    "Charters": "19",
+    "ADA" : "78925.87"
   },
   {
     "fips": "06083",
@@ -429,7 +543,10 @@
     "Role": "Superintendent",
     "Class": "Class III",
     "Address": "4400 Cathedral Oaks Road, Santa Barbara, CA 93110",
-    "Url": "https://www.sbceo.org/"
+    "Url": "https://www.sbceo.org/",
+    "Districts": "20",
+    "Charters": "15",
+    "ADA" : "62546.08"
   },
   {
     "fips": "06085",
@@ -439,7 +556,10 @@
     "Role": "Superintendent",
     "Class": "Class II",
     "Address": "1290 Ridder Park Drive, San Jose, CA 95131",
-    "Url": "https://www.sccoe.org/Pages/SCCOE%20Home.aspx"
+    "Url": "https://www.sccoe.org/Pages/SCCOE%20Home.aspx",
+    "Districts": "31",
+    "Charters": "68",
+    "ADA" : "217842.68"
   },
   {
     "fips": "06087",
@@ -449,7 +569,10 @@
     "Role": "Superintendent",
     "Class": "Class IV",
     "Address": "400 Encinal Street, Santa Cruz, CA 95060",
-    "Url": "https://santacruzcoe.org/"
+    "Url": "https://santacruzcoe.org/",
+    "Districts": "11",
+    "Charters": "13",
+    "ADA" : "34906.97"
   },
   {
     "fips": "06089",
@@ -459,7 +582,10 @@
     "Role": "Superintendent",
     "Class": "Class V",
     "Address": "1644 Magnolia Avenue, Redding, CA 96001",
-    "Url": "https://www.shastacoe.org/"
+    "Url": "https://www.shastacoe.org/",
+    "Districts": "25",
+    "Charters": "16",
+    "ADA" : "24871.38"
   },
   {
     "fips": "06091",
@@ -469,7 +595,10 @@
     "Role": "Superintendent",
     "Class": "Class VIII",
     "Address": "109 Beckwith Road, Loyalton, CA 96118",
-    "Url": "https://www.sierracountyschools.org/"
+    "Url": "https://www.sierracountyschools.org/",
+    "Districts": "1",
+    "Charters": "0",
+    "ADA" : "395.81"
   },
   {
     "fips": "06093",
@@ -479,7 +608,10 @@
     "Role": "Superintendent",
     "Class": "Class VII",
     "Address": "609 South Gold Street, Yreka, CA 96097",
-    "Url": "https://www.siskiyoucoe.net/"
+    "Url": "https://www.siskiyoucoe.net/",
+    "Districts": "25",
+    "Charters": "2",
+    "ADA" : "5113.55"
   },
   {
     "fips": "06095",
@@ -489,7 +621,10 @@
     "Role": "Superintendent",
     "Class": "Class IV",
     "Address": "5100 Business Center Drive, Fairfield, CA 94534",
-    "Url": "https://www.solanocoe.net/"
+    "Url": "https://www.solanocoe.net/",
+    "Districts": "6",
+    "Charters": "11",
+    "ADA" : "55461.83"
   },
   {
     "fips": "06097",
@@ -499,7 +634,10 @@
     "Role": "Superintendent",
     "Class": "Class III",
     "Address": "5340 Skylane Blvd., Santa Rosa, CA 95403",
-    "Url": "https://www.scoe.org/"
+    "Url": "https://www.scoe.org/",
+    "Districts": "40",
+    "Charters": "58",
+    "ADA" : "60442.16"
   },
   {
     "fips": "06099",
@@ -509,7 +647,10 @@
     "Role": "Superintendent",
     "Class": "Class III",
     "Address": "1100 H Street, Modesto, CA 95354",
-    "Url": "https://www.stancoe.org/"
+    "Url": "https://www.stancoe.org/",
+    "Districts": "25",
+    "Charters": "27",
+    "ADA" : "99951.77"
   },
   {
     "fips": "06101",
@@ -519,7 +660,10 @@
     "Role": "Superintendent",
     "Class": "Class V",
     "Address": "970 Klamath Lane, Yuba City, CA 95993",
-    "Url": "https://www.sutter.k12.ca.us/"
+    "Url": "https://www.sutter.k12.ca.us/",
+    "Districts": "12",
+    "Charters": "10",
+    "ADA" : "24170.47"
   },
   {
     "fips": "06103",
@@ -529,7 +673,10 @@
     "Role": "Superintendent",
     "Class": "Class VI",
     "Address": "1135 Lincoln Street, Red Bluff, CA 96080",
-    "Url": "https://www.tehamaschools.org/"
+    "Url": "https://www.tehamaschools.org/",
+    "Districts": "13",
+    "Charters": "2",
+    "ADA" : "10078.01"
   },
   {
     "fips": "06105",
@@ -539,7 +686,10 @@
     "Role": "Superintendent",
     "Class": "Class VII",
     "Address": "201 Memorial Drive, Weaverville, CA 96093",
-    "Url": "https://www.tcoek12.org/"
+    "Url": "https://www.tcoek12.org/",
+    "Districts": "9",
+    "Charters": "1",
+    "ADA" : "1457.1"
   },
   {
     "fips": "06107",
@@ -549,7 +699,10 @@
     "Role": "Superintendent",
     "Class": "Class III",
     "Address": "6200 S Mooney Blvd., Visalia, CA 93278",
-    "Url": "https://www.tcoe.org/"
+    "Url": "https://www.tcoe.org/",
+    "Districts": "43",
+    "Charters": "21",
+    "ADA" : "96635.54"
   },
   {
     "fips": "06109",
@@ -559,7 +712,10 @@
     "Role": "Superintendent",
     "Class": "Class VII",
     "Address": "175 Fairview Lane, Sonora, CA 95370",
-    "Url": "https://www.tcsos.us/"
+    "Url": "https://www.tcsos.us/",
+    "Districts": "11",
+    "Charters": "3",
+    "ADA" : "5319.14"
   },
   {
     "fips": "06111",
@@ -569,7 +725,10 @@
     "Role": "Superintendent",
     "Class": "Class III",
     "Address": "5189 Verdugo Way, Camarillo, CA 93012",
-    "Url": "https://www.vcoe.org/"
+    "Url": "https://www.vcoe.org/",
+    "Districts": "19",
+    "Charters": "11",
+    "ADA" : "115792.79"
   },
   {
      "fips": "06113",
@@ -579,7 +738,10 @@
     "Role": "Superintendent",
     "Class": "Class V",
     "Address": "1280 Santa Anita Court, Ste. 100, Woodland, CA 95776",
-    "Url": "https://www.ycoe.org/"
+    "Url": "https://www.ycoe.org/",
+    "Districts": "5",
+    "Charters": "7",
+    "ADA" : "26950.95"
   },
   {
     "fips": "06115",
@@ -589,6 +751,9 @@
     "Role": "Superintendent",
     "Class": "Class V",
     "Address": "935 14th Street, Marysville, CA 95901",
-    "Url": "https://www.yubacoe.org/"
+    "Url": "https://www.yubacoe.org/",
+    "Districts": "5",
+    "Charters": "6",
+    "ADA" : "15138.37"
   }
 ]
