@@ -334,24 +334,13 @@ const regionColorMap: Record<string, [string, string]> = {
             </div>
 
             <div className="mt-5 flex flex-col items-center gap-3">
-              {/* <a
+              <a
   href={hoveredData.Url}
   target="_blank"
   rel="noopener noreferrer"
   className="bg-[#002856] text-white px-4 py-2 rounded shadow hover:bg-[#003d66] transition-colors inline-block w-full max-w-[200px]">
   Official Website
-</a> */}
-
-<button  onClick={() => {
-    window.parent.postMessage(
-      {
-        type: "OPEN_EXTERNAL_LINK",
-        url: hoveredData.Url,
-      },
-      "*"
-    );
-  }}
-  className="bg-[#002856] text-white px-4 py-2 rounded shadow hover:bg-[#003d66] transition-colors inline-block w-full max-w-[200px]">Official Website</button>
+</a>
 
               {selectedFips && (
                 <button
