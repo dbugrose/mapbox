@@ -343,7 +343,13 @@ const regionColorMap: Record<string, [string, string]> = {
 </a> */}
 
 <button  onClick={() => {
-    window.open(hoveredData.Url, "_blank", "noopener,noreferrer");
+    window.parent.postMessage(
+      {
+        type: "OPEN_EXTERNAL_LINK",
+        url: hoveredData.Url,
+      },
+      "*"
+    );
   }}
   className="bg-[#002856] text-white px-4 py-2 rounded shadow hover:bg-[#003d66] transition-colors inline-block w-full max-w-[200px]">Official Website</button>
 
