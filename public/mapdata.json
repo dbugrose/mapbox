@@ -10,7 +10,7 @@
     "Url": "https://www.acoe.org/",
     "Districts": "18",
     "Charters": "53",
-    "ADA" : "197189.19"
+    "ADA" : "196393.14 "
     },
   {
     "fips": "06003",
@@ -23,7 +23,7 @@
     "Url": "https://www.alpinecoe.k12.ca.us/",
     "Districts": "1",
     "Charters": "0",
-    "ADA" : "68.97"
+    "ADA" : "83.56"
   },
   {
     "fips": "06005",
@@ -36,7 +36,7 @@
     "Url": "https://www.amadorcoe.org/",
     "Districts": "1",
     "Charters": "1",
-    "ADA" : "3775.45"
+    "ADA" : "3740.54"
   },
   {
     "fips": "06007",
@@ -49,7 +49,7 @@
     "Url": "https://www.bcoe.org/",
     "Districts": "13",
     "Charters": "17",
-    "ADA" : "27711.53"
+    "ADA" : "27966.96"
   },
   {
     "fips": "06009",
@@ -62,7 +62,7 @@
     "Url": "https://www.ccoe.k12.ca.us/",
     "Districts": "4",
     "Charters": "1",
-    "ADA" : "4828.51"
+    "ADA" : "4842.03"
   },
   {
     "fips": "06011",
@@ -75,7 +75,7 @@
     "Url": "https://www.ccoe.net/",
     "Districts": "4",
     "Charters": "0",
-    "ADA" : "4281.39"
+    "ADA" : "4247.24"
   },
   {
     "fips": "06013",
@@ -88,7 +88,7 @@
     "Url": "https://www.cccoe.k12.ca.us/",
     "Districts": "18",
     "Charters": "23",
-    "ADA" : "157943.39"
+    "ADA" : "156818.03"
   },
   {
     "fips": "06015",
@@ -101,7 +101,7 @@
     "Url": "https://www.dncoe.org/",
     "Districts": "1",
     "Charters": "2",
-    "ADA" : "3704.99"
+    "ADA" : "3701.96"
   },
   {
     "fips": "06017",
@@ -114,7 +114,7 @@
     "Url": "https://www.edcoe.org/",
     "Districts": "15",
     "Charters": "13",
-    "ADA" : "30796.42"
+    "ADA" : "30875.21"
   },
   {
       "fips": "06019",
@@ -127,7 +127,7 @@
     "Url": "https://www.fcoe.org/",
     "Districts": "32",
     "Charters": "39",
-    "ADA" : "192725.01"
+    "ADA" : "193084.89"
   },
   {
     "fips": "06021",
@@ -140,7 +140,7 @@
     "Url": "https://www.glenncoe.org/",
     "Districts": "8",
     "Charters": "3",
-    "ADA" : "6258.29" 
+    "ADA" : "6401.90" 
   },
   {
         "fips": "06023",
@@ -153,7 +153,7 @@
     "Url": "https://hcoe.org/",
     "Districts": "31",
     "Charters": "14",
-    "ADA" : "15814.87"
+    "ADA" : "15836.87"
   },
   {
         "fips": "06025",
@@ -166,7 +166,7 @@
     "Url": "https://www.icoe.org/",
     "Districts": "16",
     "Charters": "4",
-    "ADA" : "33169.26"
+    "ADA" : "32683.67"
   },
   {
         "fips": "06027",
@@ -179,7 +179,7 @@
     "Url": "https://www.inyocoe.org/",
     "Districts": "6",
     "Charters": "3",
-    "ADA" : "3379.24"
+    "ADA" : "3309.20"
   },
   {
         "fips": "06029",
@@ -192,7 +192,7 @@
     "Url": "https://kern.org/",
     "Districts": "46",
     "Charters": "15",
-    "ADA" : "187172.69"
+    "ADA" : "187305.01"
   },
   {
      "fips": "06031",
@@ -205,7 +205,7 @@
     "Url": "https://www.kingscoe.org/",
     "Districts": "13",
     "Charters": "14",
-    "ADA" : "27921.11"
+    "ADA" : "27810.11"
   },
   {
     "fips": "06033",
@@ -218,7 +218,7 @@
     "Url": "https://www.lakecoe.org/",
     "Districts": "6",
     "Charters": "2",
-    "ADA" : "9121.47"
+    "ADA" : "9212.58"
   },
   {
     "fips": "06035",
@@ -231,7 +231,7 @@
     "Url": "https://www.lcoe.org/",
     "Districts": "10",
     "Charters": "3",
-    "ADA" : "3475.2"
+    "ADA" : "3459.13"
   },
   {
     "fips": "06037",
@@ -244,7 +244,7 @@
     "Url": "https://www.lacoe.edu/",
     "Districts": "80",
     "Charters": "371",
-    "ADA" : "1193156"
+    "ADA" : "1170887.16"
   },
   {
      "fips": "06039",
@@ -252,12 +252,12 @@
     "County": "Madera County Superintendent of Schools",
     "Point": "Tricia M. Protzman",
     "Role": "Superintendent",
-    "Class": "Class IV",
+    "Class": "Class V",
     "Address": "1105 South Madera Avenue, Madera, CA 93637",
     "Url": "https://www.mcsos.org/",
     "Districts": "9",
     "Charters": "11",
-    "ADA" : "30045.49"
+    "ADA" : "29996.23"
   },
   {
     "fips": "06041",
@@ -270,7 +270,7 @@
     "Url": "https://www.marinschools.org/",
     "Districts": "18",
     "Charters": "4",
-    "ADA" : "28389.5"
+    "ADA" : "28080.58"
   },
   {
     "fips": "06043",
@@ -283,7 +283,7 @@
     "Url": "https://www.mcusd.org/District/Department/18-School-Board/1302-County-Office-of-Education.html",
     "Districts": "1",
     "Charters": "1",
-    "ADA" : "1676.19"
+    "ADA" : "1693.94"
   },
   {
       "fips": "06045",
@@ -296,7 +296,7 @@
     "Url": "https://www.mcoe.us/",
     "Districts": "12",
     "Charters": "10",
-    "ADA" : "11615.42"
+    "ADA" : "11530.23"
   },
   {
     "fips": "06047",
@@ -309,7 +309,7 @@
     "Url": "https://www.mcoe.org/",
     "Districts": "20",
     "Charters": "3",
-    "ADA" : "55528.84"
+    "ADA" : "54864.72"
   },
   
   {    "fips": "06049",
@@ -322,7 +322,7 @@
     "Url": "https://www.modoccoe.k12.ca.us/",
     "Districts": "3",
     "Charters": "0",
-    "ADA" : "1239.33"
+    "ADA" : "1215.12"
   },
   {
         "fips": "06051",
@@ -335,7 +335,7 @@
     "Url": "https://www.monocoe.org/",
     "Districts": "2",
     "Charters": "1",
-    "ADA" : "1576.76"
+    "ADA" : "1513.86"
   },
   {
             "fips": "06053",
@@ -348,7 +348,7 @@
     "Url": "https://www.montereycoe.org/",
     "Districts": "24",
     "Charters": "8",
-    "ADA" : "67632.46"
+    "ADA" : "66338.66"
   },
   {
     "fips": "06055",
@@ -361,7 +361,7 @@
     "Url": "https://napacoe.org/",
     "Districts": "5",
     "Charters": "3",
-    "ADA" : "17370.38"
+    "ADA" : "17444.62"
   },
   {
             "fips": "06057",
@@ -374,7 +374,7 @@
     "Url": "https://nevco.org/",
     "Districts": "9",
     "Charters": "15",
-    "ADA" : "10363.69"
+    "ADA" : "10480.38"
   },
   {
             "fips": "06059",
@@ -387,7 +387,7 @@
     "Url": "https://ocde.us/Pages/Home.aspx",
     "Districts": "28",
     "Charters": "38",
-    "ADA" : "408800.66"
+    "ADA" : "404019.59"
   },
   {
             "fips": "06061",
@@ -400,7 +400,7 @@
     "Url": "https://www.placercoe.org/Pages/PCOE/Home.aspx",
     "Districts": "16",
     "Charters": "21",
-    "ADA" : "73008.03"
+    "ADA" : "74058.58"
   },
   {
     "fips": "06063",
@@ -413,7 +413,7 @@
     "Url": "https://www.pcoe.k12.ca.us/",
     "Districts": "1",
     "Charters": "1",
-    "ADA" : "1850.17"
+    "ADA" : "1757.42"
   },
   {
     "fips": "06065",
@@ -426,7 +426,7 @@
     "Url": "https://www.rcoe.us/",
     "Districts": "23",
     "Charters": "32",
-    "ADA" : "389789.92"
+    "ADA" : "391577.04"
   },
   {
     "fips": "06067",
@@ -439,7 +439,7 @@
     "Url": "https://www.scoe.net/",
     "Districts": "13",
     "Charters": "52",
-    "ADA" : "236168.03"
+    "ADA" : "230319.93"
   },
   {
     "fips": "06069",
@@ -452,7 +452,7 @@
     "Url": "https://www.sbcoe.org/",
     "Districts": "11",
     "Charters": "1",
-    "ADA" : "11267.5"
+    "ADA" : "11460.15"
   },
   {
 "fips": "06071",
@@ -466,7 +466,7 @@
     "Url": "https://www.sbcss.net/",
     "Districts": "33",
     "Charters": "52",
-    "ADA" : "371263.15"
+    "ADA" : "371531.73"
   },
   {
     "fips": "06073",
@@ -480,7 +480,7 @@
     "Url": "https://www.sdcoe.net/",
     "Districts": "42",
     "Charters": "135",
-    "ADA" : "448141.44"
+    "ADA" : "448686.55"
   },
   {
     "fips": "06075",
@@ -493,7 +493,7 @@
     "Url": "https://www.sfusd.edu/",
     "Districts": "1",
     "Charters": "17",
-    "ADA" : "51451.23"
+    "ADA" : "50789.88 "
   },
   {
     "fips": "06077",
@@ -506,7 +506,7 @@
     "Url": "https://www.sjcoe.org/",
     "Districts": "14",
     "Charters": "46",
-    "ADA" : "145212.62"
+    "ADA" : "146320.98"
   },
   {
     "fips": "06079",
@@ -519,7 +519,7 @@
     "Url": "https://www.slocoe.org/",
     "Districts": "10",
     "Charters": "3",
-    "ADA" : "30607.75"
+    "ADA" : "30662.59"
   },
   {
     "fips": "06081",
@@ -533,7 +533,7 @@
     "Url": "https://www.smcoe.org/",
     "Districts": "23",
     "Charters": "19",
-    "ADA" : "78925.87"
+    "ADA" : "78388.56"
   },
   {
     "fips": "06083",
@@ -546,7 +546,7 @@
     "Url": "https://www.sbceo.org/",
     "Districts": "20",
     "Charters": "15",
-    "ADA" : "62546.08"
+    "ADA" : "62356.03"
   },
   {
     "fips": "06085",
@@ -559,7 +559,7 @@
     "Url": "https://www.sccoe.org/Pages/SCCOE%20Home.aspx",
     "Districts": "31",
     "Charters": "68",
-    "ADA" : "217842.68"
+    "ADA" : "214582.06"
   },
   {
     "fips": "06087",
@@ -572,7 +572,7 @@
     "Url": "https://santacruzcoe.org/",
     "Districts": "11",
     "Charters": "13",
-    "ADA" : "34906.97"
+    "ADA" : "35037.80"
   },
   {
     "fips": "06089",
@@ -585,7 +585,7 @@
     "Url": "https://www.shastacoe.org/",
     "Districts": "25",
     "Charters": "16",
-    "ADA" : "24871.38"
+    "ADA" : "25003.55"
   },
   {
     "fips": "06091",
@@ -598,7 +598,7 @@
     "Url": "https://www.sierracountyschools.org/",
     "Districts": "1",
     "Charters": "0",
-    "ADA" : "395.81"
+    "ADA" : "392.13"
   },
   {
     "fips": "06093",
@@ -611,7 +611,7 @@
     "Url": "https://www.siskiyoucoe.net/",
     "Districts": "25",
     "Charters": "2",
-    "ADA" : "5113.55"
+    "ADA" : "5010.69"
   },
   {
     "fips": "06095",
@@ -624,7 +624,7 @@
     "Url": "https://www.solanocoe.net/",
     "Districts": "6",
     "Charters": "11",
-    "ADA" : "55461.83"
+    "ADA" : "55561.56"
   },
   {
     "fips": "06097",
@@ -637,7 +637,7 @@
     "Url": "https://www.scoe.org/",
     "Districts": "40",
     "Charters": "58",
-    "ADA" : "60442.16"
+    "ADA" : "60737.48"
   },
   {
     "fips": "06099",
@@ -650,7 +650,7 @@
     "Url": "https://www.stancoe.org/",
     "Districts": "25",
     "Charters": "27",
-    "ADA" : "99951.77"
+    "ADA" : "99741.94"
   },
   {
     "fips": "06101",
@@ -663,7 +663,7 @@
     "Url": "https://www.sutter.k12.ca.us/",
     "Districts": "12",
     "Charters": "10",
-    "ADA" : "24170.47"
+    "ADA" : "24795.81"
   },
   {
     "fips": "06103",
@@ -676,7 +676,7 @@
     "Url": "https://www.tehamaschools.org/",
     "Districts": "13",
     "Charters": "2",
-    "ADA" : "10078.01"
+    "ADA" : "9915.75"
   },
   {
     "fips": "06105",
@@ -689,7 +689,7 @@
     "Url": "https://www.tcoek12.org/",
     "Districts": "9",
     "Charters": "1",
-    "ADA" : "1457.1"
+    "ADA" : "1425.15"
   },
   {
     "fips": "06107",
@@ -702,7 +702,7 @@
     "Url": "https://www.tcoe.org/",
     "Districts": "43",
     "Charters": "21",
-    "ADA" : "96635.54"
+    "ADA" : "96508.59"
   },
   {
     "fips": "06109",
@@ -715,7 +715,7 @@
     "Url": "https://www.tcsos.us/",
     "Districts": "11",
     "Charters": "3",
-    "ADA" : "5319.14"
+    "ADA" : "5319.17"
   },
   {
     "fips": "06111",
@@ -728,7 +728,7 @@
     "Url": "https://www.vcoe.org/",
     "Districts": "19",
     "Charters": "11",
-    "ADA" : "115792.79"
+    "ADA" : "114896.56"
   },
   {
      "fips": "06113",
@@ -741,7 +741,7 @@
     "Url": "https://www.ycoe.org/",
     "Districts": "5",
     "Charters": "7",
-    "ADA" : "26950.95"
+    "ADA" : "27205.48"
   },
   {
     "fips": "06115",
@@ -754,6 +754,6 @@
     "Url": "https://www.yubacoe.org/",
     "Districts": "5",
     "Charters": "6",
-    "ADA" : "15138.37"
+    "ADA" : "15245.90"
   }
 ]
