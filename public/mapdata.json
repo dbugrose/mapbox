@@ -9,7 +9,7 @@
     "Address": "313 West Winton Avenue, Hayward, CA 94544",
     "Url": "https://www.acoe.org/",
     "Districts": "18",
-    "Charters": "53",
+    "Charters": "51",
     "ADA" : "196393.14 "
     },
   {
@@ -68,7 +68,7 @@
     "fips": "06011",
     "Region": "Region 3 - Capital Service Regional",
     "County": "Colusa County Office of Education",
-    "Point": "Charles Wayman",
+    "Point": "Chuck Wayman",
     "Role": "Superintendent",
     "Class": "Class VII",
     "Address": "345 5th Street, Colusa, CA 95932",
@@ -87,7 +87,7 @@
     "Address": "77 Santa Barbara Road, Pleasant Hill, CA 94523",
     "Url": "https://www.cccoe.k12.ca.us/",
     "Districts": "18",
-    "Charters": "23",
+    "Charters": "21",
     "ADA" : "156818.03"
   },
   {
@@ -178,7 +178,7 @@
     "Address": "166 Grandview Drive, Bishop, CA 93514",
     "Url": "https://www.inyocoe.org/",
     "Districts": "6",
-    "Charters": "3",
+    "Charters": "1",
     "ADA" : "3309.20"
   },
   {
@@ -243,7 +243,7 @@
     "Address": "9300 Imperial Highway, Downey, CA 90242",
     "Url": "https://www.lacoe.edu/",
     "Districts": "80",
-    "Charters": "371",
+    "Charters": "338",
     "ADA" : "1170887.16"
   },
   {
@@ -367,7 +367,7 @@
             "fips": "06057",
     "Region": "Region 3 - Capital Service Regional",
     "County": "Nevada County Superintendent of Schools",
-    "Point": "Scott W. Lay",
+    "Point": "John Baggett",
     "Role": "Superintendent",
     "Class": "Class VI",
     "Address": "380 Crown Point Circle, Grass Valley, CA 95945",
@@ -386,7 +386,7 @@
     "Address": "200 Kalmus Drive, Costa Mesa, CA 92626",
     "Url": "https://ocde.us/Pages/Home.aspx",
     "Districts": "28",
-    "Charters": "38",
+    "Charters": "48",
     "ADA" : "404019.59"
   },
   {
@@ -396,7 +396,7 @@
     "Point": "Gayle Garbolino-Mojica",
     "Role": "Superintendent",
     "Class": "Class III",
-    "Address": "360 Nevada Street, Auburn, CA 95603",
+    "Address": "1400 W Stanford Ranch Road, Rocklin, CA 95765",
     "Url": "https://www.placercoe.org/Pages/PCOE/Home.aspx",
     "Districts": "16",
     "Charters": "21",
@@ -432,7 +432,7 @@
     "fips": "06067",
     "Region": "Region 3 - Capital Service Regional",
     "County": "Sacramento County Office of Education",
-    "Point": "David W. Gordon",
+    "Point": "Jacqueline White",
     "Role": "Superintendent",
     "Class": "Class II",
     "Address": "10474 Mather Blvd., Mather, CA 95655",
@@ -451,7 +451,7 @@
     "Address": "460 5th Street, Hollister, CA 95023",
     "Url": "https://www.sbcoe.org/",
     "Districts": "11",
-    "Charters": "1",
+    "Charters": "2",
     "ADA" : "11460.15"
   },
   {
@@ -465,7 +465,7 @@
     "Address": "601 North E Street, San Bernardino, CA 92415",
     "Url": "https://www.sbcss.net/",
     "Districts": "33",
-    "Charters": "52",
+    "Charters": "54",
     "ADA" : "371531.73"
   },
   {
@@ -479,14 +479,14 @@
     "Address": "6401 Linda Vista Road, San Diego, CA 92111",
     "Url": "https://www.sdcoe.net/",
     "Districts": "42",
-    "Charters": "135",
+    "Charters": "124",
     "ADA" : "448686.55"
   },
   {
     "fips": "06075",
     "Region": "Region 4 - Bay",
-    "County": "San Francisco Unified School District",
-    "Point": "VACANT",
+    "County": "San Francisco County Office of Education",
+    "Point": "John Davis Jr.",
     "Role": "Superintendent",
     "Class": "Class IV",
     "Address": "555 Franklin Street, San Francisco, CA 94102",
@@ -526,13 +526,13 @@
 
     "Region": "Region 4 - Bay",
     "County": "San Mateo County Office of Education",
-    "Point": "Marco Chávez",
+    "Point": "Marco A. Chávez",
     "Role": "Superintendent",
     "Class": "Class III",
     "Address": "101 Twin Dolphin Drive, Redwood City, CA 94065",
     "Url": "https://www.smcoe.org/",
     "Districts": "23",
-    "Charters": "19",
+    "Charters": "13",
     "ADA" : "78388.56"
   },
   {
@@ -545,7 +545,7 @@
     "Address": "4400 Cathedral Oaks Road, Santa Barbara, CA 93110",
     "Url": "https://www.sbceo.org/",
     "Districts": "20",
-    "Charters": "15",
+    "Charters": "13",
     "ADA" : "62356.03"
   },
   {
@@ -570,7 +570,7 @@
     "Class": "Class IV",
     "Address": "400 Encinal Street, Santa Cruz, CA 95060",
     "Url": "https://santacruzcoe.org/",
-    "Districts": "11",
+    "Districts": "10",
     "Charters": "13",
     "ADA" : "35037.80"
   },
@@ -609,7 +609,7 @@
     "Class": "Class VII",
     "Address": "609 South Gold Street, Yreka, CA 96097",
     "Url": "https://www.siskiyoucoe.net/",
-    "Districts": "25",
+    "Districts": "24",
     "Charters": "2",
     "ADA" : "5010.69"
   },
@@ -701,7 +701,7 @@
     "Address": "6200 S Mooney Blvd., Visalia, CA 93278",
     "Url": "https://www.tcoe.org/",
     "Districts": "43",
-    "Charters": "21",
+    "Charters": "24",
     "ADA" : "96508.59"
   },
   {
@@ -727,7 +727,7 @@
     "Address": "5189 Verdugo Way, Camarillo, CA 93012",
     "Url": "https://www.vcoe.org/",
     "Districts": "19",
-    "Charters": "11",
+    "Charters": "12",
     "ADA" : "114896.56"
   },
   {
